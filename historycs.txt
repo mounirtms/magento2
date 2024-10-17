@@ -1,0 +1,586 @@
+    1  2021-05-09 12:05:00 cd public_html
+    2  2021-05-09 12:05:03 php bin/magento in:rein catalogsearch_fulltext
+    3  2021-05-09 13:16:17 cd public_html
+    4  2021-05-09 13:16:35 php bin/magento index:reindex
+    5  2021-05-10 10:38:39 cd public_html
+    6  2021-05-10 10:38:56 php bin/magento cache:disable full_page
+    7  2021-05-10 15:38:04 cd public_html
+    8  2021-05-10 15:38:14 php bin/magento cache:enable full_page
+    9  2021-05-10 15:38:20 bash cachy.sh
+   10  2021-05-11 17:57:42 cd public_html
+   11  2021-05-11 17:57:44 rm -rf var/*
+   12  2021-05-11 17:57:55 rm -rf generated/*
+   13  2021-05-11 17:58:02 php bin/magento setup:di:compile
+   14  2021-05-11 17:58:13 rm -rf generated/*
+   15  2021-05-11 17:58:15 rm -rf generated/*
+   16  2021-05-11 17:58:19 php bin/magento setup:di:compile
+   17  2021-05-11 17:59:58 php bin/magento c:c
+   18  2021-05-11 18:00:13 php bin/magento indexer:reindex fullpage
+   19  2021-05-11 18:01:12 php bin/magento cache:enable full_page
+   20  2021-05-11 18:01:42 bash cachy.sh
+   21  2021-05-12 11:05:32 cd public_html
+   22  2021-05-12 11:05:35 bash cachy.sh
+   23  2021-05-18 08:44:24 cd public_html
+   24  2021-05-18 08:44:26 bash cachy.sh
+   25  2021-05-18 09:30:39 cd public_html
+   26  2021-05-18 09:30:42 bash cachy.sh
+   27  2021-05-23 07:27:41 cd public_html
+   28  2021-05-23 07:27:48 bash cachy.sh
+   29  2021-05-23 07:38:48 bash cachy.sh
+   30  2021-05-23 08:24:21 bash cachy.sh
+   31  2021-05-23 08:25:21 cd public_html
+   32  2021-05-23 08:25:25 bash cachy.sh
+   33  2021-06-02 10:29:25 cd public_html/
+   34  2021-06-02 10:29:44 bash cachy.sh 
+   35  2021-06-02 10:37:33 bash cachy.sh 
+   36  2021-06-02 10:53:45 bash cachy.sh 
+   37  2021-06-02 11:20:21 bash cachy.sh
+   38  2021-06-07 07:47:56 cd public_html/
+   39  2021-06-07 07:49:01 bash cachy.sh 
+   40  2021-07-05 07:56:07 cd public_html/
+   41  2021-07-05 07:56:43 php bin/magento cache:disable full_page
+   42  2021-07-05 08:38:31 php bin/magento ind:reind
+   43  2021-07-05 09:23:03 cd public_html/
+   44  2021-07-05 09:23:11 php bin/magento module:status
+   45  2021-07-05 09:58:38 php bin/magento cache:enable full_page
+   46  2021-07-05 10:00:09 bash cachy.sh
+   47  2021-07-07 08:08:57 cd public_html/
+   48  2021-07-07 08:09:18 bash cachy.sh
+   49  2021-07-11 15:24:14 cd public_html/
+   50  2021-07-11 15:24:16 bash cachy.sh
+   51  2021-07-11 15:26:45 php bin/magento cron:run
+   52  2021-07-11 15:27:00 php bin/magento cron
+   53  2021-07-13 09:05:31 cd public_html/
+   54  2021-07-13 09:05:43 php bin/magento disable:enable full_page
+   55  2021-07-13 09:06:04 php bin/magento cache:disable full_page
+   56  2021-07-13 09:10:01 php bin/magento disable:enable full_page
+   57  2021-07-13 09:10:15 php bin/magento disable:enable full_page
+   58  2021-07-13 09:10:40 php bin/magento cache:enable full_page
+   59  2021-07-13 09:11:28 bash cachy.sh
+   60  2021-07-13 09:14:38 bash cachy.sh
+   61  2021-07-15 08:03:16 cd public_html
+   62  2021-07-15 08:03:20 bash full.sh
+   63  2021-07-15 16:10:10 cd public_html
+   64  2021-07-15 16:10:15 bash full.sh
+   65  2021-07-15 18:27:31 clear
+   66  2021-07-15 18:29:24 cd
+   67  2021-07-15 18:29:30 cd public_html
+   68  2021-07-15 18:29:32 php bin/magento admin:user:unlock schihani
+   69  2021-07-16 00:17:10 cd public_html
+   70  2021-07-16 00:17:33 php bin/magento deploy:mode:set developer
+   71  2021-07-16 00:19:57 php bin/magento admin:user:create --admin-user="slimane2" --admin-password="Casacom--00"--admin- email="schihani01@gmail.com" --admin-firstname="Admin" --admin-lastname="Admin"
+   72  2021-07-16 00:20:28 php bin/magento admin:user:create --admin-user="slimane2" --admin-password="Casacom--00" --admin- email="schihani01@gmail.com" --admin-firstname="Admin" --admin-lastname="Admin"
+   73  2021-07-16 00:21:35 php bin/magento admin:user:create --admin-user="technadmin7" --admin-password="Casacom--11" --admin-email="schihani01@gmail.com" --admin-firstname="Admin" --admin-lastname="Admin"
+   74  2021-07-22 14:57:40 cd public_html
+   75  2021-07-22 14:57:44 bash full.sh
+   76  2021-07-22 20:40:15 bash full.sh
+   77  2021-07-23 00:56:00 cd public_html
+   78  2021-07-23 00:56:07 bash permissions.sh
+   79  2021-07-23 01:06:35 bash full.sh
+   80  2021-07-25 10:05:19 bash permissions.sh
+   81  2021-07-25 10:05:22 cd public_html
+   82  2021-07-25 10:05:24 find var pub/static pub/media -type f -exec chmod g+w {} \; 
+   83  2021-07-25 10:07:17 find var pub/static pub/media -type d -exec chmod g+ws {} \;
+   84  2021-07-25 10:07:27 find ./pub/media -type d -exec chmod 777 {} \;
+   85  2021-07-25 10:07:33 find ./pub/static -type d -exec chmod 777 {} \;
+   86  2021-07-26 17:16:44 cd public_html
+   87  2021-07-26 17:16:48 bash permissions.sh
+   88  2021-07-26 17:19:37 cd public_html
+   89  2021-07-26 17:19:39 bash permissions.sh
+   90  2021-07-26 18:42:55 ll
+   91  2021-07-26 18:43:14 cd pub
+   92  2021-07-26 18:43:16 ll
+   93  2021-07-26 18:43:46 cd media
+   94  2021-07-26 18:43:48 ll
+   95  2021-07-27 06:24:46 cd public_html
+   96  2021-07-27 06:25:02 bash full.sh
+   97  2021-07-27 16:49:24 cd public_html
+   98  2021-07-27 16:49:32 ll
+   99  2021-07-27 16:49:43 cd ar
+  100  2021-07-27 16:49:49 cd var
+  101  2021-07-27 16:49:51 cd ar
+  102  2021-07-27 16:49:52 ll
+  103  2021-07-28 01:52:01 cd public_html
+  104  2021-07-28 01:54:28 php bin/magento module:enable Smile_ElasticsuiteCore
+  105  2021-07-28 01:54:48 php bin/magento module:enable Smile_ElasticsuiteCatalog
+  106  2021-07-28 01:54:58 php bin/magento module:enable Smile_ElasticsuiteSwatches
+  107  2021-07-28 01:55:08 php bin/magento setup:upgrade
+  108  2021-07-28 01:59:41 bin/magento config:set catalog/search/engine elasticsuite
+  109  2021-07-28 01:59:47 php bin/magento config:set catalog/search/engine elasticsuite
+  110  2021-07-28 01:59:58 bin/magento indexer:reindex
+  111  2021-07-28 02:00:03 php bin/magento indexer:reindex
+  112  2021-07-28 02:00:25 php bin/magento s:s:d -f
+  113  2021-07-28 02:02:17 php bin/magento module:enable MGS_ClaueTheme
+  114  2021-07-28 02:02:25 php bin/magento module:enable MGS_Landing
+  115  2021-07-28 02:02:34 php bin/magento setup:upgrade
+  116  2021-07-28 02:04:35 rm -rf var/*
+  117  2021-07-28 02:05:04 rm -rf generated/code
+  118  2021-07-28 02:05:20 rm -rf generated/code/*
+  119  2021-07-28 02:05:35 php bin/magento setup:static-content:deploy -f
+  120  2021-07-28 02:12:25 cd public_html
+  121  2021-07-28 02:12:34 php bin/magento setup:upgrade
+  122  2021-07-28 02:12:52 php bin/magento setup:di:compile
+  123  2021-07-28 02:13:25 php bin/magento setup:static-content:deploy
+  124  2021-07-28 02:13:54 php bin/magento deploy:mode:show
+  125  2021-07-28 02:14:18 php bin/magento deploy:mode:set production --skip-compilation
+  126  2021-07-28 02:14:24 php bin/magento setup:static-content:deploy
+  127  2021-07-28 02:21:31 php bin/magento setup:upgrade
+  128  2021-07-28 02:21:39 cd public_html
+  129  2021-07-28 02:21:40 php bin/magento setup:upgrade
+  130  2021-07-28 02:23:20 php bin/magento setup:di:compile
+  131  2021-07-28 02:24:12 php bin/magento setup:static-content:deploy
+  132  2021-07-28 02:30:14 php bin/magento module:status
+  133  2021-07-28 02:30:44 php bin/magento module:enable Smile_ElasticsuiteAdminNotification
+  134  2021-07-28 02:30:49 Smile_ElasticsuiteCore
+  135  2021-07-28 02:30:49 Smile_ElasticsuiteCatalog
+  136  2021-07-28 02:30:49 Smile_ElasticsuiteCatalogGraphQl
+  137  2021-07-28 02:30:49 Smile_ElasticsuiteCatalogRule
+  138  2021-07-28 02:30:49 Smile_ElasticsuiteCatalogOptimizer
+  139  2021-07-28 02:30:49 Smile_ElasticsuiteTracker
+  140  2021-07-28 02:30:49 Smile_ElasticsuiteThesaurus
+  141  2021-07-28 02:30:49 Smile_ElasticsuiteSwatches
+  142  2021-07-28 02:30:49 Smile_ElasticsuiteIndices
+  143  2021-07-28 02:30:49 Smile_ElasticsuiteAnalytics
+  144  2021-07-28 02:31:16 php bin/magento module:status
+  145  2021-07-28 02:32:45 php bin/magento module:enable -c Smile_ElasticsuiteAdminNotification
+  146  2021-07-28 02:32:46 php bin/magento module:enable -c Smile_ElasticsuiteCore
+  147  2021-07-28 02:32:47 php bin/magento module:enable -c Smile_ElasticsuiteCatalog
+  148  2021-07-28 02:32:53 php bin/magento module:enable -c Smile_ElasticsuiteCatalogGraphQl
+  149  2021-07-28 02:32:59 php bin/magento module:enable -c Smile_ElasticsuiteCatalogRule
+  150  2021-07-28 02:32:59 php bin/magento module:enable -c Smile_ElasticsuiteCatalogOptimizer
+  151  2021-07-28 02:33:06 php bin/magento module:enable -c Smile_ElasticsuiteTracker
+  152  2021-07-28 02:33:10 php bin/magento module:enable -c Smile_ElasticsuiteThesaurus
+  153  2021-07-28 02:33:17 php bin/magento module:enable -c Smile_ElasticsuiteVirtualCategory
+  154  2021-07-28 02:33:22 php bin/magento module:enable -c Smile_ElasticsuiteSwatches
+  155  2021-07-28 02:33:28 php bin/magento module:enable -c Smile_ElasticsuiteIndices
+  156  2021-07-28 02:33:33 php bin/magento module:enable -c Smile_ElasticsuiteAnalytics
+  157  2021-07-28 02:34:22 php bin/magento module:enable -c Smile_ElasticsuiteRating
+  158  2021-07-28 02:34:47 php bin/magento module:status
+  159  2021-07-28 02:35:11 php bin/magento module:enable -c Smile_ElasticsuiteCatalogRule
+  160  2021-07-28 02:35:26 bash full.sh
+  161  2021-07-28 02:40:09 rm -rf var/cache/* var/generation/* var/di/*
+  162  2021-07-28 02:40:52 rm -rf var/cache/* generation/* var/di/*
+  163  2021-07-28 02:41:39 php bin/magento module:disable Smile_ElasticsuiteCore
+  164  2021-07-28 02:42:02 composer update
+  165  2021-07-28 02:43:57 php bin/magento module:enable Smile_ElasticsuiteCore
+  166  2021-07-28 02:44:19 bash full.sh
+  167  2021-07-28 02:55:05 bin/magento setup:upgrade
+  168  2021-07-28 02:55:46 php bin/magento setup:di:compile
+  169  2021-07-28 02:58:56 cd /home
+  170  2021-07-28 02:58:57 ll
+  171  2021-07-28 02:59:07 ls
+  172  2021-07-28 02:16:12 cd public_html
+  173  2021-07-28 02:16:16 bash full.sh
+  174  2021-07-28 03:08:31 php bin/magento setup:upgrade
+  175  2021-07-28 03:35:19 bash full.ah
+  176  2021-07-28 03:35:30 cd
+  177  2021-07-28 03:35:35 cd public_html
+  178  2021-07-28 03:35:41 bash full.ah
+  179  2021-07-28 03:35:44 bash full.sh
+  180  2021-07-28 03:47:16 cd public_html
+  181  2021-07-28 03:47:23 php bin/magento ind:reind
+  182  2021-07-28 03:50:21 bash full.sh
+  183  2021-07-28 03:53:59 php bin/magento setup:upgrade
+  184  2021-07-28 03:57:09 php bin/magento deploy:mode:show
+  185  2021-07-28 03:57:24 php bin/magento deploy:mode:set production --skip-compilation
+  186  2021-07-28 03:57:33 bash full.sh
+  187  2021-07-28 04:02:44 ll
+  188  2021-07-28 04:04:16 bash permissions.sh
+  189  2021-07-28 04:07:59 bash full.sh
+  190  2021-07-28 04:13:41 php bin/magento setup:upgrade
+  191  2021-07-28 04:14:10 php bin/magento setup:static-content:deploy
+  192  2021-07-28 04:15:27 bash full.sh
+  193  2021-07-28 04:17:33 composer dump-autoload
+  194  2021-07-28 04:30:54 php bin/magento module:disable -c Smile_ElasticsuiteAdminNotification Smile_ElasticsuiteCore Smile_ElasticsuiteCatalog Smile_ElasticsuiteCatalogGraphQl Smile_ElasticsuiteCatalogRule Smile_ElasticsuiteCatalogOptimizer Smile_ElasticsuiteTracker Smile_ElasticsuiteThesaurus Smile_ElasticsuiteVirtualCategory Smile_ElasticsuiteSwatches Smile_ElasticsuiteIndices Smile_ElasticsuiteAnalytics 
+  195  2021-07-28 04:31:32 php bin/magento setup:di:compile
+  196  2021-07-28 04:36:15 bash full.sh
+  197  2021-07-28 04:52:18 composer dump-autoload
+  198  2021-07-28 04:52:43 php bin/magento setup:upgrade
+  199  2021-07-28 04:53:28 php bin/magento setup:di:compile
+  200  2021-07-28 04:54:37 bash full.sh
+  201  2021-07-28 05:04:28 bash permissions.sh
+  202  2021-07-28 05:08:00 bash full.sh
+  203  2021-07-28 05:15:06 php bin/magento deploy:mode:set production --skip-compilation
+  204  2021-07-28 05:15:12 bash full.sh
+  205  2021-07-30 20:00:19 ll
+  206  2021-07-30 20:00:59 clear
+  207  2021-07-30 20:01:00 ll
+  208  2021-07-30 20:01:05 ls
+  209  2021-07-30 20:01:08 ll
+  210  2021-07-30 20:01:22 ls
+  211  2021-07-30 20:01:26 clear
+  212  2021-07-30 20:01:29 ll
+  213  2021-07-30 20:01:43 clear
+  214  2021-07-30 20:01:45 ll
+  215  2021-07-30 20:02:09 cdpublic_html
+  216  2021-07-30 20:02:10 ll
+  217  2021-07-30 20:02:15 cd public_html
+  218  2021-07-30 20:02:17 ll
+  219  2021-07-30 20:02:19 clear
+  220  2021-07-30 20:02:22 ll
+  221  2021-07-30 20:03:18 clear
+  222  2021-07-30 20:03:55 ll
+  223  2021-07-30 20:05:11 cd pub
+  224  2021-07-30 20:05:13 ll
+  225  2021-07-30 20:10:23 cd
+  226  2021-07-30 20:10:32 cd public\html
+  227  2021-07-30 20:10:36 cd public_html
+  228  2021-07-30 20:10:42 cd generated
+  229  2021-07-30 20:10:44 ll
+  230  2021-07-31 16:02:17 cd public_html
+  231  2021-07-31 16:03:05 bash cachy.sh
+  232  2021-08-02 13:00:46 cd www
+  233  2021-08-02 13:00:47 php bin/magento queue:consumers:start product_action_attribute.update
+  234  2021-08-02 13:01:26 cd www
+  235  2021-08-02 13:01:28 php bin/magento queue:consumers:start product_action_attribute.update
+  236  2021-08-03 07:26:27 cd www
+  237  2021-08-03 07:26:54 php bin/magento cache:disable full_page
+  238  2021-08-03 13:20:53 cd www
+  239  2021-08-03 13:21:08 php bin/magento cache:enable full_page
+  240  2021-08-03 13:21:38 bash cachy.sh
+  241  2021-08-03 13:26:53 php bin/magento cache:disable full_page
+  242  2021-08-04 07:47:36 cd www
+  243  2021-08-04 07:47:40 bash cachy.sh
+  244  2021-08-04 07:50:43 bash full.sh
+  245  2021-08-04 09:46:49 cd www
+  246  2021-08-04 09:46:55 php bin/magento cache:enable full_page
+  247  2021-08-04 09:47:00 bash cachy.sh
+  248  2021-08-04 10:55:46 cd www
+  249  2021-08-04 10:55:59 php bin/magento cache:disable full_page
+  250  2021-08-04 10:56:43 bash cachy.sh
+  251  2021-08-05 11:24:05 cd public_html/
+  252  2021-08-05 11:24:06 ls
+  253  2021-08-05 11:24:18 bash cachy.sh 
+  254  2021-08-09 06:11:01 cd www
+  255  2021-08-09 06:11:05 bash full.sh
+  256  2021-08-10 06:02:29 cd www
+  257  2021-08-10 06:02:33 bash full.sh
+  258  2021-08-10 06:11:59 cd www
+  259  2021-08-10 06:12:01 bash full.sh
+  260  2021-08-10 06:14:26 php -d memory_limit=4G bin/magento setup:di:compile
+  261  2021-08-10 06:17:10 php bin/magento maintenance:enable --ip  105.235.138.47 
+  262  2021-08-10 06:20:59 bash full.sh
+  263  2021-08-10 06:24:18 php -d memory_limit=4G bin/magento setup:di:compile
+  264  2021-08-10 06:38:43 bash full.sh
+  265  2021-08-10 06:40:21 bash cachy.sh
+  266  2021-08-10 06:47:41 bash full.sh
+  267  2021-08-10 06:59:43 php bin/magento maintenance:disable
+  268  2021-08-18 17:29:25 pwd
+  269  2021-08-18 17:29:36 cd public_html/
+  270  2021-08-18 17:29:38 ls -la
+  271  2021-08-18 17:29:59 ls -la vendor/amasty/
+  272  2021-08-18 17:32:12 touch pub/amasty.txt
+  273  2021-08-18 17:32:17 nano pub/amasty.txt 
+  274  2021-08-18 17:33:42 rm pub/amasty.txt 
+  275  2021-08-18 17:33:47 php -v
+  276  2021-08-18 17:33:58 find pub/static -maxdepth 4 -mindepth 4 -type d
+  277  2021-08-18 17:34:06 mkdir -p var/amasty_install_backup && tar -czvf "var/amasty_install_backup/install_backup_$(date +%s).tar.gz" generated/ pub/static/ vendor/ var/cache/ var/page_cache/ var/view_preprocessed/ app/ app/etc/env.php composer.json composer.lock
+  278  2021-08-18 17:35:37 curl localhost:9200
+  279  2021-08-18 17:54:50 exit
+  280  2021-08-19 08:44:46 cd /home/technadminy7/public_html
+  281  2021-08-19 08:44:49 ls -l
+  282  2021-08-19 08:46:16 php bin/magento main:en
+  283  2021-08-19 08:46:41 php bin/magento se:up
+  284  2021-08-19 08:47:15 php bin/magento se:di:co
+  285  2021-08-19 08:48:08 php bin/magento s:s:d en_US fr_FR
+  286  2021-08-19 08:50:21 composer show -a amasty/*
+  287  2021-08-19 08:50:39 cat composer.json
+  288  2021-08-19 08:50:53 composer config repositories.amasty_account1 composer https://composer1.amasty.com/community/
+  289  2021-08-19 08:50:55 cat composer.json
+  290  2021-08-19 08:51:01 composer show -a amasty/*
+  291  2021-08-19 08:56:27 composer require amasty/module-one-step-checkout-premium-package amasty/cart amasty/module-seo-toolkit-premium amasty/gift-card-pro amasty/amp amasty/module-visual-merchandiser amasty/module-b2b-suite-premium amasty/module-promotion-suite-pro amasty/module-shopby-premium amasty/module-loyalty-program amasty/module-magento-custom-form amasty/module-advanced-msi amasty/module-security-suite amasty/order-management-suite-premium amasty/module-promo-banners-premium amasty/module-elastic-search amasty/rewards amasty/mega-menu amasty/gift-wrap amasty/module-product-status-premium amasty/pgrid amasty/module-report-builder amasty/module-shipping-suite amasty/cron-scheduler amasty/module-fpc-warmer amasty/module-optimizer-pro amasty/module-delivery-date-manager amasty/feed amasty/module-import-export amasty/module-advanced-reports
+  292  2021-08-19 08:57:05 composer require amasty/module-one-step-checkout-premium-package amasty/cart amasty/module-seo-toolkit-premium amasty/gift-card-pro amasty/amp amasty/module-visual-merchandiser amasty/module-b2b-suite-premium amasty/module-promotion-suite-pro amasty/module-shopby-premium amasty/module-loyalty-program amasty/module-magento-custom-form amasty/module-advanced-msi amasty/module-security-suite amasty/order-management-suite-premium amasty/module-promo-banners-premium amasty/module-elastic-search amasty/rewards amasty/mega-menu amasty/gift-wrap amasty/module-product-status-premium amasty/pgrid amasty/module-report-builder amasty/module-shipping-suite amasty/cron-scheduler amasty/module-fpc-warmer amasty/module-optimizer-pro amasty/module-delivery-date-manager amasty/feed amasty/module-import-export amasty/module-advanced-reports amasty/base:1.12.11
+  293  2021-08-19 08:57:30 composer require amasty/module-one-step-checkout-premium-package amasty/cart amasty/module-seo-toolkit-premium amasty/gift-card-pro amasty/amp amasty/module-visual-merchandiser amasty/module-b2b-suite-premium amasty/module-promotion-suite-pro amasty/module-shopby-premium amasty/module-loyalty-program amasty/module-magento-custom-form amasty/module-advanced-msi amasty/module-security-suite amasty/order-management-suite-premium amasty/module-promo-banners-premium amasty/module-elastic-search amasty/rewards amasty/mega-menu amasty/gift-wrap amasty/module-product-status-premium amasty/pgrid amasty/module-report-builder amasty/module-shipping-suite amasty/cron-scheduler amasty/module-fpc-warmer amasty/module-optimizer-pro amasty/module-delivery-date-manager amasty/feed amasty/module-import-export amasty/module-advanced-reports amasty/base:1.12.11 amasty/promo:2.10.6
+  294  2021-08-19 08:57:49 composer require amasty/module-one-step-checkout-premium-package amasty/cart amasty/module-seo-toolkit-premium amasty/gift-card-pro amasty/amp amasty/module-visual-merchandiser amasty/module-b2b-suite-premium amasty/module-promotion-suite-pro amasty/module-shopby-premium amasty/module-loyalty-program amasty/module-magento-custom-form amasty/module-advanced-msi amasty/module-security-suite amasty/order-management-suite-premium amasty/module-promo-banners-premium amasty/module-elastic-search amasty/rewards amasty/mega-menu amasty/gift-wrap amasty/module-product-status-premium amasty/pgrid amasty/module-report-builder amasty/module-shipping-suite amasty/cron-scheduler amasty/module-fpc-warmer amasty/module-optimizer-pro amasty/module-delivery-date-manager amasty/feed amasty/module-import-export amasty/module-advanced-reports amasty/base:1.12.11 amasty/promo:2.10.6 amasty/module-advanced-conditions:1.5.3
+  295  2021-08-19 08:58:11 composer require amasty/module-one-step-checkout-premium-package amasty/cart amasty/module-seo-toolkit-premium amasty/gift-card-pro amasty/amp amasty/module-visual-merchandiser amasty/module-b2b-suite-premium amasty/module-promotion-suite-pro amasty/module-shopby-premium amasty/module-loyalty-program amasty/module-magento-custom-form amasty/module-advanced-msi amasty/module-security-suite amasty/order-management-suite-premium amasty/module-promo-banners-premium amasty/module-elastic-search amasty/rewards amasty/mega-menu amasty/gift-wrap amasty/module-product-status-premium amasty/pgrid amasty/module-report-builder amasty/module-shipping-suite amasty/cron-scheduler amasty/module-fpc-warmer amasty/module-optimizer-pro amasty/module-delivery-date-manager amasty/feed amasty/module-import-export amasty/module-advanced-reports amasty/base:1.12.11 amasty/promo:2.10.6 amasty/module-advanced-conditions:1.5.3 amasty/module-banners-lite:1.0.19
+  296  2021-08-19 08:58:38 composer suggest
+  297  2021-08-19 08:59:14 composer require amasty/mega-menu-graphql amasty/mega-menu-page-builder amasty/module-mixin-rewrite-patch amasty/module-elastic-search-graphql amasty/module-magento-custom-form-graphql amasty/rewards-graph-ql
+  298  2021-08-19 08:59:30 php bin/magento se:up
+  299  2021-08-19 08:59:52 rm -rf generated/*
+  300  2021-08-19 08:59:54 php bin/magento se:up
+  301  2021-08-19 09:00:50 php bin/magento se:di:co
+  302  2021-08-19 09:02:00 php -dmemory_limit=-1 bin/magento se:di:co
+  303  2021-08-19 09:03:14 php bin/magento s:s:d en_US fr_FR
+  304  2021-08-19 09:04:52 php -dmemory_limit=-1 bin/magento s:s:d en_US fr_FR
+  305  2021-08-19 09:06:00 php bin/magento ind:reind
+  306  2021-08-19 09:06:59 php bin/magento c:f
+  307  2021-08-19 09:07:05 php bin/magento main:d
+  308  2021-08-19 09:17:44 php bin/magento main:en
+  309  2021-08-19 09:20:11 php bin/magento main:d
+  310  2021-08-19 09:28:05 ls -l
+  311  2021-08-19 09:28:16 cat app/etc/env.php
+  312  2021-08-19 09:28:33 ls -l
+  313  2021-08-19 09:28:35 pwd
+  314  2021-08-20 11:36:41 cd /home/technadminy7/public_html
+  315  2021-08-20 11:49:51 history
+  316  2021-08-20 11:50:10 rm -rf var/view_preprocessed/* && rm -rf pub/static/*
+  317  2021-08-20 11:50:13 php -dmemory_limit=-1 bin/magento s:s:d en_US fr_FR
+  318  2021-08-20 12:09:27 rm -rf var/view_preprocessed/* && rm -rf pub/static/*
+  319  2021-08-20 12:09:30 php -dmemory_limit=-1 bin/magento s:s:d en_US fr_FR
+  320  2021-08-20 12:09:37 rm -rf var/view_preprocessed/* && rm -rf pub/static/*
+  321  2021-08-20 12:09:39 nproc
+  322  2021-08-20 12:09:44 php -dmemory_limit=-1 bin/magento s:s:d en_US fr_FR -j8
+  323  2021-08-20 12:17:59 rm -rf var/view_preprocessed/* && rm -rf pub/static/* 
+  324  2021-08-20 12:18:03 php -dmemory_limit=-1 bin/magento s:s:d en_US fr_FR -j8
+  325  2021-08-20 12:20:21 rm -rf var/view_preprocessed/* && rm -rf pub/static/* 
+  326  2021-08-20 12:20:27 php -dmemory_limit=-1 bin/magento s:s:d en_US fr_FR
+  327  2021-08-20 12:23:51 rm -rf var/log/exception.log
+  328  2021-08-20 12:23:59 rm -rf var/view_preprocessed/* && rm -rf pub/static/* 
+  329  2021-08-20 12:24:05 php -dmemory_limit=-1 bin/magento s:s:d en_US fr_FR
+  330  2021-08-20 12:31:02 rm -rf var/view_preprocessed/* && rm -rf pub/static/* 
+  331  2021-08-20 12:33:54 php -dmemory_limit=-1 bin/magento s:s:d en_US fr_FR
+  332  2021-08-20 12:51:20 grep -r 'tmstests.com'
+  333  2021-08-20 21:47:32 pwd
+  334  2021-08-20 21:49:16 cd www
+  335  2021-08-20 21:49:20 bash cachy.sh
+  336  2021-08-20 21:53:37 php bin/magento cache:enable full_page
+  337  2021-08-20 21:53:56 php bin/magento c:f
+  338  2021-08-21 06:02:53 cd www
+  339  2021-08-21 06:03:06 php bin/magento module:status
+  340  2021-08-21 06:03:27 php bin/magento module:disable MGS_Mmegamenu
+  341  2021-08-21 06:03:55 bash cachy.sh
+  342  2021-08-21 06:06:15 php bin/magento setup:di:compile
+  343  2021-08-21 06:08:41 php -dmemory_limit=-1 bin/magento setup:di:compile
+  344  2021-08-21 06:09:47 bash cachy.sh
+  345  2021-08-21 06:20:53 php bin/magento module:enable MGS_Mmegamenu
+  346  2021-08-21 06:21:07 php -dmemory_limit=-1 bin/magento setup:di:compile
+  347  2021-08-21 06:22:27 bash cachy.sh
+  348  2021-08-21 09:20:27 cd www
+  349  2021-08-21 09:21:10 php bin/magento cache:disable full_page
+  350  2021-08-21 10:39:18 cd www
+  351  2021-08-21 10:39:23 bash full.sh
+  352  2021-08-21 11:55:10 cd www
+  353  2021-08-21 11:55:19 php bin/magento module:status
+  354  2021-08-21 11:55:41 php bin/magento module:disable MGS_Ajaxlayernavigation
+  355  2021-08-21 11:55:53 php -dmemory_limit=-1 bin/magento setup:di:compile
+  356  2021-08-21 11:58:05 bash cachy.sh
+  357  2021-08-21 11:30:16 cd /home/technadminy7/public_html
+  358  2021-08-21 11:30:29 php bin/magento mo:st
+  359  2021-08-21 11:37:58 php bin/magento depl:mode:sh
+  360  2021-08-21 12:58:53 pwd
+  361  2021-08-21 12:58:56 df -h
+  362  2021-08-21 12:59:13 ls -la vendor/amasty/
+  363  2021-08-21 13:00:26 mkdir -p var/amasty_install_backup && tar -czvf "var/amasty_install_backup/install_backup_$(date +%s).tar.gz" generated/ pub/static/ vendor/ var/cache/ var/page_cache/ var/view_preprocessed/ app/ app/etc/env.php composer.json composer.lock
+  364  2021-08-21 13:18:26 find pub/static/ -maxdepth 4 -mindepth 4 -type d
+  365  2021-08-21 13:18:46 php bin/magento mo:st
+  366  2021-08-21 13:42:25 history
+  367  2021-08-21 14:02:42 exit
+  368  2021-08-21 16:02:14 cd /home/technadminy7/public_html
+  369  2021-08-21 16:02:21 php bin/magento mo:st
+  370  2021-08-21 16:02:36 ls -la vendor/amasty/shopby/composer.json 
+  371  2021-08-21 16:02:46 cat vendor/amasty/shopby/composer.json 
+  372  2021-08-21 16:03:28 composer require amasty/shopby:2.17.1
+  373  2021-08-21 16:04:32 hp bin/magento setup:upgrade && php bin/magento set:di:compile && php bin/magento set:static-content:deploy -f en_US fr_FR && php bin/magento c:fl
+  374  2021-08-21 16:04:51 php bin/magento setup:upgrade && php bin/magento set:di:compile && php bin/magento set:static-content:deploy -f en_US fr_FR && php bin/magento c:fl
+  375  2021-08-21 16:08:21 php -dmemory_limit=-1 bin/magento set:di:compile && php -dmemory_limit=-1 bin/magento set:static-content:deploy -f en_US fr_FR && php bin/magento c:fl
+  376  2021-08-21 15:04:53 cd /home/technadminy7/public_html
+  377  2021-08-21 15:05:05 tail -f var/log/exception.log var/log/system.log 
+  378  2021-08-21 15:09:00 php bin/magento s:d:c -vvv
+  379  2021-08-21 15:10:45 history
+  380  2021-08-21 15:10:59 php -dmemory_limit=-1 bin/magento setup:di:compile -vvv
+  381  2021-08-21 15:12:33 tail -f var/log/system.log 
+  382  2021-08-21 15:27:02 php bin/magento mod:dis MGS_Mmegamenu
+  383  2021-08-21 15:28:34 php bin/magento c:f
+  384  2021-08-21 15:31:09 php bin/magento mod:ena MGS_Mmegamenu
+  385  2021-08-21 15:31:12 php bin/magento c:f
+  386  2021-08-21 20:18:24 cd www
+  387  2021-08-21 20:18:26 php bin/magento amasty:optimizer:optimize
+  388  2021-08-21 20:20:05 php bin/magento catalog:images:resize
+  389  2021-08-21 21:41:47 php bin/magento mo:st
+  390  2021-08-21 21:44:26 php bin/magento modu:dis -c  MGS_AjaxCart MGS_Amp MGS_Blog
+  391  2021-08-21 21:45:23 php -dmemory_limit=-1 bin/magento setup:di:compile
+  392  2021-08-21 21:47:43 bash full.sh
+  393  2021-08-23 11:10:11 cd www
+  394  2021-08-23 11:10:48 php bin/magento mo:st
+  395  2021-08-23 11:13:31 php bin/magento module:disable -c  Amasty_Acart Amasty_AdminActionsLog Amasty_AdvancedMSI Amasty_AdvancedReview Amasty_Base Amasty_Amp Amasty_BannerSlider Amasty_BannersLite Amasty_AltTagGenerator Amasty_Blog Amasty_ShopbyBase Amasty_CancelOrder Amasty_Cart Amasty_Geoip Amasty_ImportExportCore Amasty_ImportCore Amasty_Conditions Amasty_CompanyAccount Amasty_CommonRules Amasty_Conf Amasty_CronSchedule Amasty_CronScheduleList Amasty_CronScheduler Amasty_CrossLinks Amasty_CustomButton Amasty_Mage24Fix Amasty_ExportCore Amasty_CustomerExportEntity Amasty_CustomerImportEntity Amasty_CustomerImport Amasty_Customform Amasty_CustomformGraphQl Amasty_DeliveryDateManager Amasty_ElasticSearch Amasty_Xsearch Amasty_EmailUnsubscribe Amasty_CmsExportEntity Amasty_ExportPro Amasty_Faq Amasty_Feed Amasty_Flags Amasty_Fpc Amasty_GiftCard Amasty_GiftCardAccount Amasty_GiftWrap Amasty_GoogleAccountLogin Amasty_GroupAssign Amasty_Groupcat Amasty_ImageOptimizer Amasty_ImageOptimizerUi Amasty_CmsImportEntity Amasty_ImportExport Amasty_CustomerExport Amasty_ImportPro Amasty_InventoryExportEntity Amasty_InvisibleCaptcha Amasty_Label Amasty_LazyLoad Amasty_LazyLoadUi Amasty_MWishlist Amasty_PromoCountdown Amasty_MegaMenuLite Amasty_MegaMenu Amasty_MegaMenuGraphQl Amasty_MegaMenuPageBuilder Amasty_Meta Amasty_MixinRewritePatch Amasty_Mostviewed Amasty_Number Amasty_Oaction Amasty_Perm Amasty_OrderExportEntity Amasty_OrderExport Amasty_OrderImportEntity Amasty_OrderImport Amasty_OrderStatus Amasty_Orderarchive Amasty_Orderattr Amasty_PageSpeedOptimizer Amasty_PageSpeedOptimizerPro Amasty_PageSpeedTools Amasty_Payrestriction Amasty_Ogrid Amasty_Pgrid Amasty_Preorder Amasty_ProductExportEntity Amasty_ProductExport Amasty_ProductImportEntity Amasty_ProductImport Amasty_ProductStatusPremium Amasty_Promo Amasty_PromoBanners Amasty_PromoBannersPremium Amasty_Stockstatus Amasty_QuickOrder Amasty_RegenerateUrlRewrites Amasty_Reindex Amasty_ReportBuilder Amasty_Reports Amasty_RequestQuote Amasty_Rewards Amasty_RewardsGraphQl Amasty_Rgrid Amasty_Rolepermissions Amasty_Rules Amasty_RulesLoyalty Amasty_RulesPro Amasty_SalesRuleWizard Amasty_Scroll Amasty_SecurityAuth Amasty_SeoHtmlSitemap Amasty_SeoToolKit Amasty_SeoSingleUrl Amasty_SeoRichData Amasty_SeoToolkitPremium Amasty_ShippingArea Amasty_ShippingBar Amasty_ShippingTableRates Amasty_Shiprestriction Amasty_Shiprules Amasty_ShopByQuickConfig Amasty_Shopby Amasty_ShopbyBrand Amasty_CPS Amasty_ShopbyPage Amasty_ShopbySeo Amasty_SocialLogin Amasty_CustomStockStatusTimer Amasty_StoreCredit Amasty_Storelocator Amasty_StorePickupWithLocator Amasty_StorelocatorIndexer Amasty_ThankYouPage Amasty_UrlRewriteExportEntity Amasty_UrlRewriteImportEntity Amasty_VisualMerch Amasty_VisualMerchCore Amasty_VisualMerchUi Amasty_XmlSitemap Amasty_Xnotif Amasty_ElasticSearchGraphQl
+  396  2021-08-23 11:14:32 php bin/magento module:disable -c  Amasty_Acart Amasty_AdminActionsLog Amasty_AdvancedMSI Amasty_AdvancedReview Amasty_Base Amasty_Amp Amasty_BannerSlider Amasty_BannersLite Amasty_AltTagGenerator Amasty_Blog Amasty_ShopbyBase Amasty_CancelOrder Amasty_Cart Amasty_Geoip Amasty_ImportExportCore Amasty_ImportCore Amasty_Conditions Amasty_CompanyAccount Amasty_CommonRules Amasty_Conf Amasty_CronSchedule Amasty_CronScheduleList Amasty_CronScheduler Amasty_CrossLinks Amasty_CustomButton Amasty_Mage24Fix Amasty_ExportCore Amasty_CustomerExportEntity Amasty_CustomerImportEntity Amasty_CustomerImport Amasty_Customform Amasty_CustomformGraphQl Amasty_DeliveryDateManager Amasty_ElasticSearch Amasty_Xsearch Amasty_EmailUnsubscribe Amasty_CmsExportEntity Amasty_ExportPro Amasty_Faq Amasty_Feed Amasty_Flags Amasty_Fpc Amasty_GiftCard Amasty_GiftCardAccount Amasty_GiftWrap Amasty_GoogleAccountLogin Amasty_GroupAssign Amasty_Groupcat Amasty_ImageOptimizer Amasty_ImageOptimizerUi Amasty_CmsImportEntity Amasty_ImportExport Amasty_CustomerExport Amasty_ImportPro Amasty_InventoryExportEntity Amasty_InvisibleCaptcha Amasty_Label Amasty_LazyLoad Amasty_LazyLoadUi Amasty_MWishlist Amasty_PromoCountdown Amasty_MegaMenuLite Amasty_MegaMenu Amasty_MegaMenuGraphQl Amasty_MegaMenuPageBuilder Amasty_Meta Amasty_MixinRewritePatch Amasty_Mostviewed Amasty_Number Amasty_Oaction Amasty_Perm Amasty_OrderExportEntity Amasty_OrderExport Amasty_OrderImportEntity Amasty_OrderImport Amasty_OrderStatus Amasty_Orderarchive Amasty_Orderattr Amasty_PageSpeedOptimizer Amasty_PageSpeedOptimizerPro Amasty_PageSpeedTools Amasty_Payrestriction Amasty_Ogrid Amasty_Pgrid Amasty_Preorder Amasty_ProductExportEntity Amasty_ProductExport Amasty_ProductImportEntity Amasty_ProductImport Amasty_ProductStatusPremium Amasty_Promo Amasty_PromoBanners Amasty_PromoBannersPremium Amasty_Stockstatus Amasty_QuickOrder Amasty_RegenerateUrlRewrites Amasty_Reindex Amasty_ReportBuilder Amasty_Reports Amasty_RequestQuote Amasty_Rewards Amasty_RewardsGraphQl Amasty_Rgrid Amasty_Rolepermissions Amasty_Rules Amasty_RulesLoyalty Amasty_RulesPro Amasty_SalesRuleWizard Amasty_Scroll Amasty_SecurityAuth Amasty_SeoHtmlSitemap Amasty_SeoToolKit Amasty_SeoSingleUrl Amasty_SeoRichData Amasty_SeoToolkitPremium Amasty_ShippingArea Amasty_ShippingBar Amasty_ShippingTableRates Amasty_Shiprestriction Amasty_Shiprules Amasty_ShopByQuickConfig Amasty_Shopby Amasty_ShopbyBrand Amasty_CPS Amasty_ShopbyPage Amasty_ShopbySeo Amasty_SocialLogin Amasty_CustomStockStatusTimer Amasty_StoreCredit Amasty_Storelocator Amasty_StorePickupWithLocator Amasty_StorelocatorIndexer Amasty_ThankYouPage Amasty_UrlRewriteExportEntity Amasty_UrlRewriteImportEntity Amasty_VisualMerch Amasty_VisualMerchCore Amasty_VisualMerchUi Amasty_XmlSitemap Amasty_Xnotif Amasty_ElasticSearchGraphQl Amasty_Checkout 
+  397  2021-08-23 11:14:43 php -dmemory_limit=-1 bin/magento setup:di:compile
+  398  2021-08-23 11:15:34 php bin/magento mo:st
+  399  2021-08-23 11:15:53 bash full.sh
+  400  2021-08-23 11:18:55 php bin/magento mo:st
+  401  2021-08-23 11:35:27 cd ww
+  402  2021-08-23 11:35:30 cd www
+  403  2021-08-23 11:35:34 php bin/magento mo:st
+  404  2021-08-23 11:35:47 cd www
+  405  2021-08-23 11:35:48 php bin/magento mo:st
+  406  2021-08-23 11:40:13 bash full.sh 
+  407  2021-08-23 11:41:40 cd www
+  408  2021-08-23 11:41:42 bash full.sh 
+  409  2021-08-23 12:02:11 php bin/magento mo:st
+  410  2021-08-23 12:15:40 php bin/magento mo:enable -c Amasty_ImportExportCore
+  411  2021-08-23 12:16:14 php bin/magento mo:ena -c Amasty_ImportCore
+  412  2021-08-23 12:16:27 php -dmemory_limit=-1 bin/magento setup:di:compile
+  413  2021-08-23 12:17:24 bash full.sh
+  414  2021-08-23 12:24:23 php bin/magento mo:st
+  415  2021-08-23 12:33:09 php bin/magento mo:ena  Amasty_Base Amasty_Mage24Fix Amasty_ExportCore Amasty_CustomerExportEntity Amasty_CustomerImportEntity Amasty_CustomerImport Amasty_ExportPro Amasty_ImportExport Amasty_CustomerExport Amasty_ImportPro Amasty_InventoryExportEntity Amasty_ProductExportEntity Amasty_ProductExport Amasty_ProductImportEntity Amasty_ProductImport Amasty_Conf 
+  416  2021-08-23 12:33:52 php bin/magento set:upg
+  417  2021-08-23 12:34:25 php -dmemory_limit=-1 bin/magento setup:di:compile
+  418  2021-08-23 12:36:31 bash cachy.sh
+  419  2021-08-23 12:37:14 bash full.sh
+  420  2021-08-23 12:46:11 php bin/magento mo:st
+  421  2021-08-23 12:48:51 php bin/magento mo:dis -c Amasty_Conf
+  422  2021-08-23 12:49:13 php -dmemory_limit=-1 bin/magento setup:di:compile
+  423  2021-08-23 12:51:34 bash full.sh
+  424  2021-08-23 13:42:04 php bin/magento mo:st
+  425  2021-08-23 13:42:08 cd www
+  426  2021-08-23 13:42:11 php bin/magento mo:st
+  427  2021-08-23 13:42:28 php bin/magento mo:ena Amasty_SeoToolKit
+  428  2021-08-23 13:42:46 bash full.sh
+  429  2021-08-23 13:55:17 php bin/magento mod:sta
+  430  2021-08-23 13:55:20 cd www
+  431  2021-08-23 13:55:21 php bin/magento mod:sta
+  432  2021-08-23 14:03:40 php bin/magento mod:enab Amasty_CronSchedule Amasty_CronScheduleList Amasty_CrossLinks Amasty_CmsExportEntity Amasty_CmsImportEntity Amasty_Meta Amasty_OrderExport Amasty_OrderImportEntity Amasty_OrderExportEntity Amasty_SeoHtmlSitemap Amasty_SeoSingleUrl Amasty_SeoRichData Amasty_UrlRewriteExportEntity Amasty_XmlSitemap
+  433  2021-08-23 14:03:55 bash full.sh
+  434  2021-08-23 14:06:30 php bin/magento mod:sta
+  435  2021-08-23 14:08:54 php bin/magento mod:ena Amasty_OrderImport Amasty_UrlRewriteImportEntity
+  436  2021-08-23 14:09:08 bash full.sh
+  437  2021-08-23 14:11:52 php bin/magento mod:sta
+  438  2021-08-23 20:19:16 cd /home/technadminy7/public_html
+  439  2021-08-23 20:19:18 ls
+  440  2021-08-23 20:19:24 whoami 
+  441  2021-08-23 20:19:27 groups
+  442  2021-08-23 20:19:38 ls -la var/page_cache/
+  443  2021-08-23 20:20:08 cd /home/technadminy7/public_html
+  444  2021-08-23 20:20:38 php bin/magento mo:st
+  445  2021-08-23 20:21:04 php bin/magento mo:en Amasty_Fpc
+  446  2021-08-23 20:21:33 php bin/magento s:d:c
+  447  2021-08-23 20:28:38 php bin/magento mo:dis Amasty_Fpc
+  448  2021-08-23 20:29:32 php -dmemory_limit=-1 bin/magento s:d:c 
+  449  2021-08-25 10:35:02 cd www
+  450  2021-08-25 10:36:51 php bin/magento mo:stat
+  451  2021-08-25 10:38:57 php bin/magento mo:enab Amasty_Promo
+  452  2021-08-25 10:47:04 php bin/magento mo:enab Amasty_Rewards Amasty_PromoCountdown Amasty_Fpc Amasty_CompanyAccount
+  453  2021-08-25 10:47:10 bash full.sh
+  454  2021-08-25 11:00:04 php bin/magento mo:stat
+  455  2021-08-25 11:04:46 php bin/magento mo:ena Amasty_GroupAssign Amasty_Groupcat Amasty_Perm Amasty_Rolepermissions Amasty_Rules Amasty_RulesLoyalty Amasty_RulesPro Amasty_SalesRuleWizard 
+  456  2021-08-25 11:05:06 bash full.sh
+  457  2021-08-25 23:30:23 cd www
+  458  2021-08-25 23:30:26 php bin/magento mo:stat
+  459  2021-08-25 23:33:37 php bin/magento mo:dis Bss_BundleOptionImage
+  460  2021-08-25 23:33:42 bash full.sh
+  461  2021-08-25 23:37:25 php bin/magento mo:ena Bss_BundleOptionImage
+  462  2021-08-25 23:37:36 bash full.sh
+  463  2021-08-25 23:43:22 composer require bsscommerce/bundle-option-image 
+  464  2021-08-25 23:45:31 composer update bsscommerce/bundle-option-image
+  465  2021-08-25 23:47:05 bash full.sh
+  466  2021-08-25 23:55:45 php in/magento deploy:mode set developer
+  467  2021-08-25 23:55:56 php bin/magento deploy:mode set developer
+  468  2021-08-25 23:56:06 php bin/magento deploy:mode:set developer
+  469  2021-08-25 23:56:53 php bin/magento deploy:mode:set production --skip-compilation
+  470  2021-08-25 23:57:01 bash full.sh
+  471  2021-08-26 05:53:48 cd www
+  472  2021-08-26 05:53:52 bash full.sh
+  473  2021-08-26 06:35:00 cd www
+  474  2021-08-26 06:35:17 php bin/magento mo:stat
+  475  2021-08-26 06:37:32 php bin/magento mo:ena Amasty_Checkout
+  476  2021-08-26 06:37:39 bash full.sh
+  477  2021-08-28 08:33:38 cd www
+  478  2021-08-28 08:34:13 php bin/magento mo:ena Amasty_PageSpeedOptimizer Amasty_PageSpeedOptimizerPro Amasty_PageSpeedTools Amasty_GiftCard Amasty_GiftCardAccount
+  479  2021-08-28 08:34:27 bash full.sh
+  480  2021-08-28 10:00:24 php bin/magento mo:stat
+  481  2021-08-28 10:00:28 cd www
+  482  2021-08-28 10:00:33 php bin/magento mo:stat
+  483  2021-08-28 10:01:05 php bin/magento mo:ena Amasty_ImageOptimizer Amasty_ImageOptimizerUi
+  484  2021-08-28 10:01:25 bash full.sh
+  485  2021-08-28 10:27:42 php bin/magento mo:stat
+  486  2021-08-28 12:24:19 cd www
+  487  2021-08-28 12:24:29 php bin/magento indexer:reset
+  488  2021-08-28 12:24:39 php bin/magento indexer:reindex
+  489  2021-08-28 12:27:50 bash cachy.sh
+  490  2021-08-28 18:43:45 cd wwww
+  491  2021-08-28 18:43:47 cd www
+  492  2021-08-28 18:44:12 bash cachy.sh
+  493  2021-08-28 18:45:12 php bin/magento cache:enable fpc
+  494  2021-08-28 18:45:26 php bin/magento cache:enable full_page
+  495  2021-08-28 18:45:32 bash cachy.sh
+  496  2021-08-29 07:04:52 cd www
+  497  2021-08-29 07:04:56 bash fullsh
+  498  2021-08-29 07:05:00 bash full.sh
+  499  2021-08-29 07:07:27 bash fullsh
+  500  2021-08-29 07:07:29 cd www
+  501  2021-08-29 07:07:32 bash full.sh
+  502  2021-08-29 07:14:12 php bin/magento deploy:mode:set developer
+  503  2021-08-29 07:28:34 php bin/magento deploy:mode:set production
+  504  2021-08-29 07:30:08 php bin/magento deploy:mode:set production --skip-compilation
+  505  2021-08-29 07:30:13 bash full.sh
+  506  2021-08-29 07:36:31 bash permissions.sh
+  507  2021-08-29 07:40:32 php bin/magento mo:stat
+  508  2021-08-29 07:41:03 php bin/magento mo:ena Amasty_Feed
+  509  2021-08-29 07:41:23 php bin/magento mo:ena Amasty_ElasticSearch
+  510  2021-08-29 07:41:46 php bin/magento mo:ena Amasty_Blog
+  511  2021-08-29 07:46:37 php bin/magento mo:en Amasty_Xsearch Amasty_LazyLoad Amasty_LazyLoadUi Amasty_ReportBuilder Amasty_Reports Amasty_Shopby Amasty_ShopByQuickConfig Amasty_Shopby Amasty_ShopbyBrand Amasty_CPS Amasty_ShopbyPage Amasty_ShopbySeo Amasty_SocialLogin Amasty_CustomStockStatusTimer Amasty_StoreCredit Amasty_Storelocator Amasty_StorePickupWithLocator Amasty_StorelocatorIndexer Amasty_ThankYouPage Amasty_VisualMerch Amasty_VisualMerchCore Amasty_VisualMerchUi Amasty_Xnotif Amasty_ElasticSearchGraphQl
+  512  2021-08-29 07:46:46 bash full.sh
+  513  2021-08-29 07:50:39 php bin/magento mo:stat
+  514  2021-08-29 07:52:07 php bin/magento mo:ena Amasty_ShopbyBase
+  515  2021-08-29 07:52:29 bash full.sh
+  516  2021-08-29 07:56:58 php bin/magento mo:stat
+  517  2021-08-29 07:58:43 php bin/magento mo:ena Amasty_MegaMenu Amasty_MegaMenuGraphQl Amasty_MegaMenuPageBuilder
+  518  2021-08-29 08:00:05 Amasty_RegenerateUrlRewrites Amasty_Reindex Amasty_SeoToolkitPremium
+  519  2021-08-29 08:00:14 php bin/magento mo:ena Amasty_RegenerateUrlRewrites Amasty_Reindex Amasty_SeoToolkitPremium
+  520  2021-08-29 08:00:20 bash full.sh 
+  521  2021-08-29 08:03:44 php bin/magento mo:ena Amasty_MegaMenuLite
+  522  2021-08-29 08:05:00 php bin/magento mo:ena Amasty_AdminActionsLog 
+  523  2021-08-29 08:05:18 bash full.sh
+  524  2021-08-29 08:09:27 php bin/magento mo:stat
+  525  2021-08-29 08:12:32 php bin/magento mo:disa MGS_Brand
+  526  2021-08-29 08:12:46 bash full.sh
+  527  2021-08-29 08:17:05 php bin/magento mo:stat
+  528  2021-08-29 08:19:44 php bin/magento mo:dis Amasty_ShopByQuickConfig Amasty_Shopby Amasty_ShopbyBrand Amasty_ShopbyPage Amasty_ShopbySe
+  529  2021-08-29 08:20:29 php bin/magento mo:dis Amasty_CPS Amasty_ShopByQuickConfig Amasty_Shopby Amasty_ShopbyBrand Amasty_ShopbyPage Amasty_ShopbySeo
+  530  2021-08-29 08:20:46 php bin/magento mo:ena MGS_Brand
+  531  2021-08-29 08:20:51 bash full.sh
+  532  2021-08-29 09:43:08 cd www
+  533  2021-08-29 09:47:34 php bin/magento deploy:mode:show
+  534  2021-08-29 10:06:09 php bin/magento deploy:mode:set developer
+  535  2021-08-29 10:06:57 php bin/magento deploy:mode:set 
+  536  2021-08-29 10:07:09 php bin/magento deploy:mode:set develope
+  537  2021-08-29 10:07:13 php bin/magento deploy:mode:set developer
+  538  2021-08-29 10:09:51 php bin/magento deploy:mode:set production --skip-compilation
+  539  2021-08-29 10:10:05 bash cachy.sh
+  540  2021-08-29 10:14:52 bash full.sh
+  541  2021-08-29 14:51:35 cd www
+  542  2021-08-29 14:51:37 php bin/magento modu:dis Amasty_SeoToolKit
+  543  2021-08-29 14:52:10 php bin/magento modu:dis Amasty_SeoToolKit Amasty_SeoToolkitPremium
+  544  2021-08-29 14:52:19 bash full.sh
+  545  2021-08-29 14:56:35 php bin/magento mod:dis Amasty_ShopByQuickConfig Amasty_Shopby Amasty_ShopbyBrand Amasty_CPS Amasty_ShopbyPage Amasty_ShopbySeo
+  546  2021-08-29 14:59:20 php bin/magento modu:stat
+  547  2021-08-29 22:22:13 php bin/magento cache:disable full_page
+  548  2021-08-29 22:22:33 cd www
+  549  2021-08-29 22:22:34 php bin/magento cache:disable full_page
+  550  2021-08-29 22:30:47 php bin/magento cache:ena full_page
+  551  2021-08-31 06:47:06 cd www
+  552  2021-08-31 06:47:14 php bin/magento modu:stat
+  553  2021-08-31 06:52:40 php bin/magento modu:ena Amasty_AdvancedMSI Amasty_AdvancedReview Amasty_Amp Amasty_BannerSlider Amasty_BannersLite Amasty_AltTagGenerator Amasty_CancelOrder Amasty_Geoip Amasty_Conditions Amasty_CommonRules Amasty_CronScheduler Amasty_CustomButton Amasty_Customform Amasty_CustomformGraphQl Amasty_DeliveryDateManager Amasty_EmailUnsubscribe Amasty_Faq Amasty_Flags Amasty_GiftWrap Amasty_GoogleAccountLogin Amasty_InvisibleCaptcha Amasty_Label Amasty_MWishlist Amasty_MixinRewritePatch Amasty_Mostviewed Amasty_Number Amasty_Oaction Amasty_OrderStatus Amasty_Orderarchive Amasty_Orderattr Amasty_Payrestriction Amasty_Ogrid Amasty_Pgrid Amasty_Preorder Amasty_ProductStatusPremium Amasty_PromoBanners Amasty_PromoBannersPremium Amasty_Stockstatus Amasty_QuickOrder Amasty_RequestQuote Amasty_RewardsGraphQl Amasty_Rgrid Amasty_SecurityAuth Amasty_ShippingArea Amasty_ShippingBar Amasty_ShippingTableRates Amasty_Shiprestriction Amasty_Shiprules Amasty_ShopByQuickConfig Amasty_Shopby Amasty_ShopbyBrand 
+  554  2021-08-31 06:53:46 bash full.sh
+  555  2021-08-31 07:01:13 php bin/magento modu:dis 
+  556  2021-08-31 07:05:20 bash full.sh
+  557  2021-08-31 07:09:32 php bin/magento modu:stat
+  558  2021-08-31 07:10:35 php bin/magento modu:ena Amasty_ShopbyPage Amasty_ShopbySeo 
+  559  2021-08-31 07:10:53 bash full.sh
+  560  2021-08-31 07:16:44 php bin/magento dep:mod:set developer
+  561  2021-08-31 07:17:16 php bin/magento dep:mod:set production --skip-compilation
+  562  2021-08-31 07:17:22 bash full.sh
+  563  2021-08-31 07:18:44 php bin/magento modu:stat
+  564  2021-08-31 07:18:48 cd wwww
+  565  2021-08-31 07:18:50 cd www
+  566  2021-08-31 07:18:53 php bin/magento modu:stat
+  567  2021-08-31 07:19:21 php bin/magento modu:dis Amasty_ShopbySeo
+  568  2021-08-31 07:20:23 php bin/magento modu:dis Amasty_ShopbySeo Amasty_ShopByQuickConfig Amasty_Shopby
+  569  2021-08-31 07:20:37 bash full.sh
+  570  2021-08-31 07:24:30 php bin/magento modu:dis Amasty_Mostviewed
+  571  2021-08-31 07:25:02 bash full.sh
+  572  2021-08-31 07:29:41 bash cachy.sh
+  573  2021-08-31 07:31:57 php bin/magento modu:dis Amasty_ShopByQuickConfig Amasty_Shopby Amasty_ShopbyBrand
+  574  2021-08-31 07:32:02 bash full.sh
+  575  2021-08-31 07:36:36 php bin/magento dep:mod:set developer
+  576  2021-08-31 07:37:45 php bin/magento mod:stat
+  577  2021-08-31 07:38:24 php bin/magento mod:dis Amasty_MegaMenuLite Amasty_MegaMenu Amasty_MegaMenuGraphQl Amasty_MegaMenuPageBuilder
+  578  2021-08-31 07:38:29 bash full.sh
+  579  2021-08-31 07:41:53 php bin/magento mod:stat
+  580  2021-08-31 07:43:41 php bin/magento mod:dis Amasty_ShopbyBase Amasty_ShopbyPage 
+  581  2021-08-31 07:43:59 bash full.sh
+  582  2021-08-31 07:48:07 php bin/magento deplo:mode:set production --skip-compilation
+  583  2021-08-31 07:48:11 bash full.sh
+  584  2021-08-31 07:53:03 bash cachy.sh
+  585  2021-08-31 07:57:39 php bin/magento mod:stat
+  586  2021-08-31 07:58:16 history > historycs.txt
