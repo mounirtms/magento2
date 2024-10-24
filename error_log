@@ -1989,3 +1989,5 @@ Stack trace:
 [24-Aug-2024 08:18:08 UTC] PHP Warning:  Version warning: Imagick was compiled against ImageMagick version 1692 but version 1693 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
 [24-Aug-2024 09:00:01 UTC] PHP Warning:  Version warning: Imagick was compiled against ImageMagick version 1692 but version 1693 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
 [16-Oct-2024 11:07:56 UTC] PHP Fatal error:  Allowed memory size of 3221225472 bytes exhausted (tried to allocate 622592 bytes) in /home/technadminy7/public_html/vendor/magento/framework/ObjectManager/Factory/Compiled.php on line 75
+[17-Oct-2024 11:57:32 UTC] PHP Fatal error:  Allowed memory size of 3221225472 bytes exhausted (tried to allocate 622592 bytes) in /home/technadminy7/public_html/vendor/magento/framework/ObjectManager/Factory/Compiled.php on line 75
+[17-Oct-2024 12:01:43 UTC] PHP Fatal error:  Allowed memory size of 3221225472 bytes exhausted (tried to allocate 622592 bytes) in /home/technadminy7/public_html/vendor/magento/framework/ObjectManager/Factory/Compiled.php on line 75

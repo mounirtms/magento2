@@ -415,7 +415,8 @@ define([
 					}
 				}).fail(function (error) {
 					console.log(JSON.stringify(error));
-					$(_options.idContainer).customModal("closeModal");
+           document.querySelector('.ampromo-overlay').remove();
+					/*$(_options.idContainer).customModal("closeModal");
 					alert({
 						modalClass: 'smcqp-confirm',
 						content: _options.errorMessage ,
@@ -427,7 +428,7 @@ define([
 								window.location.href = _options.urlCurrent;
 							}
 						}
-					});
+					});*/
                 });
 				return false;
 			},

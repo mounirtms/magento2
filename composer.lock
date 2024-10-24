@@ -419,10 +419,10 @@
         },
         {
             "name": "amasty/gift-card-pro",
-            "version": "2.16.0",
+            "version": "2.16.1",
             "dist": {
                 "type": "zip",
-                "url": "https://composer1.amasty.com/community/packages/amasty/gift-card-pro-2.16.0.zip"
+                "url": "https://composer1.amasty.com/community/packages/amasty/gift-card-pro-2.16.1.zip"
             },
             "require": {
                 "amasty/base": ">=1.17.0",
@@ -1170,10 +1170,10 @@
         },
         {
             "name": "amasty/module-export-core",
-            "version": "1.11.0",
+            "version": "1.11.1",
             "dist": {
                 "type": "zip",
-                "url": "https://composer1.amasty.com/community/packages/amasty/module-export-core-1.11.0.zip"
+                "url": "https://composer1.amasty.com/community/packages/amasty/module-export-core-1.11.1.zip"
             },
             "require": {
                 "amasty/base": ">=1.17.0",
@@ -1227,13 +1227,13 @@
         },
         {
             "name": "amasty/module-gift-card",
-            "version": "2.13.0",
+            "version": "2.13.1",
             "dist": {
                 "type": "zip",
-                "url": "https://composer1.amasty.com/community/packages/amasty/module-gift-card-2.13.0.zip"
+                "url": "https://composer1.amasty.com/community/packages/amasty/module-gift-card-2.13.1.zip"
             },
             "require": {
-                "amasty/base": ">=1.16.0",
+                "amasty/base": ">=1.17.0",
                 "amasty/module-gift-card-account": ">=1.4.2",
                 "dompdf/dompdf": "*",
                 "php": ">=7.3"
@@ -1259,13 +1259,13 @@
         },
         {
             "name": "amasty/module-gift-card-account",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "dist": {
                 "type": "zip",
-                "url": "https://composer1.amasty.com/community/packages/amasty/module-gift-card-account-1.7.0.zip"
+                "url": "https://composer1.amasty.com/community/packages/amasty/module-gift-card-account-1.7.1.zip"
             },
             "require": {
-                "amasty/base": ">=1.16.0",
+                "amasty/base": ">=1.17.0",
                 "amasty/module-gift-card": ">=2.9.0",
                 "php": ">=7.3"
             },
@@ -2376,10 +2376,10 @@
         },
         {
             "name": "amasty/module-special-promo-pro",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://composer1.amasty.com/community/packages/amasty/module-special-promo-pro-2.15.0.zip"
+                "url": "https://composer1.amasty.com/community/packages/amasty/module-special-promo-pro-2.16.0.zip"
             },
             "require": {
                 "amasty/base": ">=1.17.0",
@@ -2568,13 +2568,13 @@
         },
         {
             "name": "amasty/mostviewed",
-            "version": "2.20.0",
+            "version": "2.20.1",
             "dist": {
                 "type": "zip",
-                "url": "https://composer1.amasty.com/community/packages/amasty/mostviewed-2.20.0.zip"
+                "url": "https://composer1.amasty.com/community/packages/amasty/mostviewed-2.20.1.zip"
             },
             "require": {
-                "amasty/base": ">=1.16.0",
+                "amasty/base": ">=1.17.0",
                 "amasty/cron-schedule-list": "*",
                 "php": ">=7.3"
             },
@@ -2741,14 +2741,14 @@
         },
         {
             "name": "amasty/payrestriction",
-            "version": "2.3.12",
+            "version": "2.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://composer1.amasty.com/community/packages/amasty/payrestriction-2.3.12.zip"
+                "url": "https://composer1.amasty.com/community/packages/amasty/payrestriction-2.4.0.zip"
             },
             "require": {
-                "amasty/base": ">=1.13.2",
-                "amasty/system-common-rules": ">=2.4.12",
+                "amasty/base": ">=1.17.0",
+                "amasty/system-common-rules": ">=2.4.5",
                 "php": ">=7.3"
             },
             "suggest": {
@@ -2765,7 +2765,7 @@
                 }
             },
             "license": [
-                "Commercial"
+                "proprietary"
             ],
             "description": "Payment Restrictions by Amasty"
         },
@@ -3300,16 +3300,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.323.4",
+            "version": "3.324.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e66ee025b1d169fad3c784934f56648d3eec11ae"
+                "reference": "7412a44da62fd607efbaac4084e69d6621f29de1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e66ee025b1d169fad3c784934f56648d3eec11ae",
-                "reference": "e66ee025b1d169fad3c784934f56648d3eec11ae",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7412a44da62fd607efbaac4084e69d6621f29de1",
+                "reference": "7412a44da62fd607efbaac4084e69d6621f29de1",
                 "shasum": ""
             },
             "require": {
@@ -3392,9 +3392,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.323.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.324.6"
             },
-            "time": "2024-10-09T18:10:22+00:00"
+            "time": "2024-10-18T18:06:33+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -5612,16 +5612,16 @@
         },
         {
             "name": "google/apiclient",
-            "version": "v2.17.0",
+            "version": "v2.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client.git",
-                "reference": "b1f63d72c44307ec8ef7bf18f1012de35d8944ed"
+                "reference": "846f149c9f879449145326dad99ef00bf1d879f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/b1f63d72c44307ec8ef7bf18f1012de35d8944ed",
-                "reference": "b1f63d72c44307ec8ef7bf18f1012de35d8944ed",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/846f149c9f879449145326dad99ef00bf1d879f3",
+                "reference": "846f149c9f879449145326dad99ef00bf1d879f3",
                 "shasum": ""
             },
             "require": {
@@ -5675,22 +5675,22 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client/issues",
-                "source": "https://github.com/googleapis/google-api-php-client/tree/v2.17.0"
+                "source": "https://github.com/googleapis/google-api-php-client/tree/v2.18.0"
             },
-            "time": "2024-07-10T14:57:54+00:00"
+            "time": "2024-10-16T21:58:58+00:00"
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.376.0",
+            "version": "v0.377.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "013c4fcdda03c804e96c6aad332456e05916c665"
+                "reference": "912727289dd617a97da7d2700debbe81a59cea19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/013c4fcdda03c804e96c6aad332456e05916c665",
-                "reference": "013c4fcdda03c804e96c6aad332456e05916c665",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/912727289dd617a97da7d2700debbe81a59cea19",
+                "reference": "912727289dd617a97da7d2700debbe81a59cea19",
                 "shasum": ""
             },
             "require": {
@@ -5719,9 +5719,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.376.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.377.0"
             },
-            "time": "2024-10-06T01:06:23+00:00"
+            "time": "2024-10-14T00:56:24+00:00"
         },
         {
             "name": "google/auth",
@@ -6028,16 +6028,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8"
+                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
-                "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
+                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
                 "shasum": ""
             },
             "require": {
@@ -6091,7 +6091,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.0.3"
+                "source": "https://github.com/guzzle/promises/tree/2.0.4"
             },
             "funding": [
                 {
@@ -6107,7 +6107,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-18T10:29:17+00:00"
+            "time": "2024-10-17T10:06:22+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -7042,38 +7042,38 @@
         },
         {
             "name": "laminas/laminas-filter",
-            "version": "2.37.0",
+            "version": "2.38.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-filter.git",
-                "reference": "27dda1e60547bc000b876e24808f47932df2f4ac"
+                "reference": "3037168c2db8af3088aca8826bdf7e249fd24ce3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-filter/zipball/27dda1e60547bc000b876e24808f47932df2f4ac",
-                "reference": "27dda1e60547bc000b876e24808f47932df2f4ac",
+                "url": "https://api.github.com/repos/laminas/laminas-filter/zipball/3037168c2db8af3088aca8826bdf7e249fd24ce3",
+                "reference": "3037168c2db8af3088aca8826bdf7e249fd24ce3",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "laminas/laminas-servicemanager": "^3.21.0",
-                "laminas/laminas-stdlib": "^3.13.0",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
+                "laminas/laminas-stdlib": "^3.19.0",
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "conflict": {
                 "laminas/laminas-validator": "<2.10.1",
                 "zendframework/zend-filter": "*"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~2.5.0",
-                "laminas/laminas-crypt": "^3.11",
-                "laminas/laminas-i18n": "^2.26.0",
-                "laminas/laminas-uri": "^2.11",
+                "laminas/laminas-coding-standard": "~3.0",
+                "laminas/laminas-crypt": "^3.12",
+                "laminas/laminas-i18n": "^2.28.1",
+                "laminas/laminas-uri": "^2.12",
                 "pear/archive_tar": "^1.5.0",
-                "phpunit/phpunit": "^10.5.20",
+                "phpunit/phpunit": "^10.5.36",
                 "psalm/plugin-phpunit": "^0.19.0",
                 "psr/http-factory": "^1.1.0",
-                "vimeo/psalm": "^5.24.0"
+                "vimeo/psalm": "^5.26.1"
             },
             "suggest": {
                 "laminas/laminas-crypt": "Laminas\\Crypt component, for encryption filters",
@@ -7117,20 +7117,20 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2024-08-12T09:23:23+00:00"
+            "time": "2024-10-17T20:43:05+00:00"
         },
         {
             "name": "laminas/laminas-http",
-            "version": "2.19.0",
+            "version": "2.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-http.git",
-                "reference": "26dd6d1177e25d970058863c2afed12bb9dbff4d"
+                "reference": "a66bfb65c698aad6ee9f10df42cb5902f2c3dec8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-http/zipball/26dd6d1177e25d970058863c2afed12bb9dbff4d",
-                "reference": "26dd6d1177e25d970058863c2afed12bb9dbff4d",
+                "url": "https://api.github.com/repos/laminas/laminas-http/zipball/a66bfb65c698aad6ee9f10df42cb5902f2c3dec8",
+                "reference": "a66bfb65c698aad6ee9f10df42cb5902f2c3dec8",
                 "shasum": ""
             },
             "require": {
@@ -7138,7 +7138,7 @@
                 "laminas/laminas-stdlib": "^3.6",
                 "laminas/laminas-uri": "^2.11",
                 "laminas/laminas-validator": "^2.15",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "conflict": {
                 "zendframework/zend-http": "*"
@@ -7146,7 +7146,7 @@
             "require-dev": {
                 "ext-curl": "*",
                 "laminas/laminas-coding-standard": "~2.4.0",
-                "phpunit/phpunit": "^9.5.25"
+                "phpunit/phpunit": "^9.6.21"
             },
             "suggest": {
                 "paragonie/certainty": "For automated management of cacert.pem"
@@ -7182,20 +7182,20 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2023-11-02T16:27:41+00:00"
+            "time": "2024-10-18T07:35:59+00:00"
         },
         {
             "name": "laminas/laminas-i18n",
-            "version": "2.28.1",
+            "version": "2.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-i18n.git",
-                "reference": "d553a9c15c08768b8410050b4fa5479c99e2ed82"
+                "reference": "9aa7ef6073556e9b4cfd8d9a0cb8e41cd3883454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-i18n/zipball/d553a9c15c08768b8410050b4fa5479c99e2ed82",
-                "reference": "d553a9c15c08768b8410050b4fa5479c99e2ed82",
+                "url": "https://api.github.com/repos/laminas/laminas-i18n/zipball/9aa7ef6073556e9b4cfd8d9a0cb8e41cd3883454",
+                "reference": "9aa7ef6073556e9b4cfd8d9a0cb8e41cd3883454",
                 "shasum": ""
             },
             "require": {
@@ -7203,7 +7203,7 @@
                 "laminas/laminas-servicemanager": "^3.21.0",
                 "laminas/laminas-stdlib": "^3.0",
                 "laminas/laminas-translator": "^1.0",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "conflict": {
                 "laminas/laminas-view": "<2.20.0",
@@ -7268,7 +7268,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2024-09-10T11:54:30+00:00"
+            "time": "2024-10-11T09:44:53+00:00"
         },
         {
             "name": "laminas/laminas-json",
@@ -7333,20 +7333,20 @@
         },
         {
             "name": "laminas/laminas-loader",
-            "version": "2.10.0",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-loader.git",
-                "reference": "e6fe952304ef40ce45cd814751ab35d42afdad12"
+                "reference": "f2eedd3a6e774d965158fd11946bb1eba72e298c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-loader/zipball/e6fe952304ef40ce45cd814751ab35d42afdad12",
-                "reference": "e6fe952304ef40ce45cd814751ab35d42afdad12",
+                "url": "https://api.github.com/repos/laminas/laminas-loader/zipball/f2eedd3a6e774d965158fd11946bb1eba72e298c",
+                "reference": "f2eedd3a6e774d965158fd11946bb1eba72e298c",
                 "shasum": ""
             },
             "require": {
-                "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
+                "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "conflict": {
                 "zendframework/zend-loader": "*"
@@ -7385,7 +7385,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2023-10-18T09:58:51+00:00"
+            "time": "2024-10-16T09:06:57+00:00"
         },
         {
             "name": "laminas/laminas-mail",
@@ -7938,33 +7938,33 @@
         },
         {
             "name": "laminas/laminas-router",
-            "version": "3.13.0",
+            "version": "3.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-router.git",
-                "reference": "04e14e757303787c83f79298dbd4483eebacfeb9"
+                "reference": "5e1f5ca7fe95200661b50235c891ed3eee02d3f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-router/zipball/04e14e757303787c83f79298dbd4483eebacfeb9",
-                "reference": "04e14e757303787c83f79298dbd4483eebacfeb9",
+                "url": "https://api.github.com/repos/laminas/laminas-router/zipball/5e1f5ca7fe95200661b50235c891ed3eee02d3f0",
+                "reference": "5e1f5ca7fe95200661b50235c891ed3eee02d3f0",
                 "shasum": ""
             },
             "require": {
                 "laminas/laminas-http": "^2.15",
                 "laminas/laminas-servicemanager": "^3.14.0",
                 "laminas/laminas-stdlib": "^3.10.1",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "conflict": {
                 "zendframework/zend-router": "*"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~2.5.0",
-                "laminas/laminas-i18n": "^2.26.0",
-                "phpunit/phpunit": "^10.5.11",
-                "psalm/plugin-phpunit": "^0.18.4",
-                "vimeo/psalm": "^5.22.2"
+                "laminas/laminas-i18n": "^2.29.0",
+                "phpunit/phpunit": "^10.5.36",
+                "psalm/plugin-phpunit": "^0.19.0",
+                "vimeo/psalm": "^5.26.1"
             },
             "suggest": {
                 "laminas/laminas-i18n": "^2.15.0 if defining translatable HTTP path segments"
@@ -8005,7 +8005,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2024-03-05T12:54:05+00:00"
+            "time": "2024-10-11T11:18:03+00:00"
         },
         {
             "name": "laminas/laminas-server",
@@ -21302,11 +21302,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.52",
+            "version": "1.1.53",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.52.0.zip",
-                "shasum": "cf03c891b5d16a6d2a54fefd2faf71ca830afc3c"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.53.0.zip",
+                "shasum": "bdf7763d118498e83af34fb8e836914c4df448be"
             },
             "require": {
                 "ext-json": "*",
@@ -22034,11 +22034,11 @@
         },
         {
             "name": "mirasvit/module-report-api",
-            "version": "1.0.70",
+            "version": "1.0.71",
             "dist": {
                 "type": "tar",
-                "url": "https://packages.mirasvit.com/49698:ZLCOJH6SN7/downloads/mirasvit-module-report-api-1.0.70-3789a7.tar",
-                "reference": "cd4ab3628df630c4f39fd016b26927607fe31fae"
+                "url": "https://packages.mirasvit.com/49698:ZLCOJH6SN7/downloads/mirasvit-module-report-api-1.0.71-7b830f.tar",
+                "reference": "7b8a19c0ba4d8d718929f06ebaf0fa20cb3f6e42"
             },
             "require": {
                 "magento/framework": "102.0.*|103.0.*",
@@ -22057,15 +22057,15 @@
                 "proprietary"
             ],
             "description": "Reports Core API",
-            "time": "2024-09-27T12:18:03+00:00"
+            "time": "2024-10-17T11:34:34+00:00"
         },
         {
             "name": "mirasvit/module-rma",
-            "version": "2.2.40",
+            "version": "2.2.43",
             "dist": {
                 "type": "tar",
-                "url": "https://packages.mirasvit.com/49698:ZLCOJH6SN7/downloads/mirasvit-module-rma-2.2.40-6a77e3.tar",
-                "reference": "a961f0f5988bb64f44a5cb4d3dbfe5ce4387511f"
+                "url": "https://packages.mirasvit.com/49698:ZLCOJH6SN7/downloads/mirasvit-module-rma-2.2.43-daf917.tar",
+                "reference": "1cf94591e416b620bb8abf44ec06dcdc9f8bfe3c"
             },
             "require": {
                 "magento/framework": "102.0.*|103.0.*",
@@ -22085,7 +22085,7 @@
                 "proprietary"
             ],
             "description": "RMA",
-            "time": "2024-09-25T09:09:17+00:00"
+            "time": "2024-10-18T15:07:52+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -28251,16 +28251,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.14.2",
+            "version": "v15.14.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "3bc2778fa16a8a127767240ca91ef51236cb0f58"
+                "reference": "fac6205e957c9fbe0145606bc82a32973db1a339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/3bc2778fa16a8a127767240ca91ef51236cb0f58",
-                "reference": "3bc2778fa16a8a127767240ca91ef51236cb0f58",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/fac6205e957c9fbe0145606bc82a32973db1a339",
+                "reference": "fac6205e957c9fbe0145606bc82a32973db1a339",
                 "shasum": ""
             },
             "require": {
@@ -28313,7 +28313,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.14.2"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.14.3"
             },
             "funding": [
                 {
@@ -28321,7 +28321,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-10-08T08:43:03+00:00"
+            "time": "2024-10-17T13:03:37+00:00"
         },
         {
             "name": "wikimedia/less.php",
@@ -30484,16 +30484,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.6",
+            "version": "1.12.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "dc4d2f145a88ea7141ae698effd64d9df46527ae"
+                "reference": "dc2b9976bd8b0f84ec9b0e50cc35378551de7af0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dc4d2f145a88ea7141ae698effd64d9df46527ae",
-                "reference": "dc4d2f145a88ea7141ae698effd64d9df46527ae",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dc2b9976bd8b0f84ec9b0e50cc35378551de7af0",
+                "reference": "dc2b9976bd8b0f84ec9b0e50cc35378551de7af0",
                 "shasum": ""
             },
             "require": {
@@ -30538,7 +30538,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-06T15:03:59+00:00"
+            "time": "2024-10-18T11:12:07+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -31500,16 +31500,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "1.2.6",
+            "version": "1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "6ca85da28159dbd3bb36211c5104b7bc91278e99"
+                "reference": "05755bf43617449c08ee8e50fb840c85ad3b1240"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/6ca85da28159dbd3bb36211c5104b7bc91278e99",
-                "reference": "6ca85da28159dbd3bb36211c5104b7bc91278e99",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/05755bf43617449c08ee8e50fb840c85ad3b1240",
+                "reference": "05755bf43617449c08ee8e50fb840c85ad3b1240",
                 "shasum": ""
             },
             "require": {
@@ -31547,7 +31547,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/1.2.6"
+                "source": "https://github.com/rectorphp/rector/tree/1.2.8"
             },
             "funding": [
                 {
@@ -31555,7 +31555,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-03T08:56:44+00:00"
+            "time": "2024-10-18T11:54:27+00:00"
         },
         {
             "name": "sebastian/cli-parser",
