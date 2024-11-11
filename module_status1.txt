@@ -1,0 +1,746 @@
+2tvenom/cborencode                                                1.0.2              CBOR encoder for PHP
+allure-framework/allure-codeception                               1.5.2              Allure Codeception integration
+allure-framework/allure-php-api                                   1.4.0              Allure PHP commons
+allure-framework/allure-phpunit                                   1.5.0              Allure PHPUNit integration
+amasty/adminactionslog                                            2.0.10             Admin Actions Log by Amasty
+amasty/advanced-review                                            1.15.7             Advanced Review by Amasty
+amasty/ajax-scroll                                                1.4.7              AJAX Scroll by Amasty
+amasty/amcart                                                     1.14.0             Abandoned Cart Email By Amasty
+amasty/aminvisiblecaptcha                                         2.4.6              Amasty Google Invisible Captcha
+amasty/amp                                                        1.3.9              Accelerated Mobile Pages By Amasty
+amasty/base                                                       1.14.3             Amasty Base
+amasty/blog                                                       2.10.8             Amasty Blog Pro
+amasty/cart                                                       1.10.1             Ajax Shopping Cart by Amasty
+amasty/color-swatches-pro                                         2.9.6              Color Swatches Pro by Amasty
+amasty/cron-schedule-list                                         1.0.6              Cron Schedule List by Amasty
+amasty/cron-scheduler                                             1.0.11             Cron Scheduler by Amasty
+amasty/custom_product_sorting                                     1.0.8              Custom Product Sorting by Amasty
+amasty/customer-group-assign                                      1.0.8              Customer Group Auto Assign by Amasty
+amasty/email-unsubscribe                                          1.0.1              Email Unsubscribe by Amasty
+amasty/feed                                                       2.7.1              Product Feed by Amasty
+amasty/geoip                                                      1.5.7              Amasty Geoip Data
+amasty/gift-card-pro                                              2.8.7              Gift Card Pro by Amasty
+amasty/gift-wrap                                                  1.5.2              Gift Wrap By Amasty
+amasty/google-account-login                                       1.0.2              Google Account Login by Amasty
+amasty/groupcat                                                   1.8.6              Amasty Customer Group Catalog
+amasty/html-sitemap                                               1.2.6              HTML Sitemap by Amasty
+amasty/label                                                      2.3.1              Product Labels by Amasty
+amasty/meta                                                       1.3.4              Meta Tags Templates by Amasty
+amasty/module-advanced-conditions                                 1.5.4              Advanced Conditions by Amasty
+amasty/module-advanced-msi                                        1.4.5              Amasty Advanced MSI
+amasty/module-advanced-permissions                                1.4.31             Advanced Permissions by Amasty
+amasty/module-advanced-reports                                    1.9.0              Advanced Reports by Amasty
+amasty/module-alt-tag-generator                                   1.0.1              Alt Tag Generator by Amasty
+amasty/module-b2b-suite-premium                                   1.0.2              B2B Suite Premium by Amasty
+amasty/module-banners-lite                                        1.0.19             Promo Banners Lite by Amasty
+amasty/module-cancel-order                                        1.1.9              Cancel Orders By Amasty
+amasty/module-cart-price-rule-export-entity                       1.0.2              Cart Price Rule Export Entity by Amasty
+amasty/module-cart-price-rule-import-entity                       1.1.2              Cart Price Rule Import Entity by Amasty
+amasty/module-catalog-rule-export-entity                          1.0.1              Catalog Price Rule Export Entity by Amasty
+amasty/module-catalog-rule-import-entity                          1.1.2              Catalog Price Rule Import Entity by Amasty
+amasty/module-checkout-delivery-date                              1.0.3              One Step Checkout Delivery Date by Amasty
+amasty/module-checkout-gift-wrap                                  1.0.2              One Step Checkout Gift Wrap by Amasty
+amasty/module-checkout-layout-builder                             1.0.2              One Step Checkout Layout Builder by Amasty
+amasty/module-checkout-style-switcher                             1.1.3              One Step Checkout Style Switcher by Amasty
+amasty/module-checkout-thank-you-page                             1.1.1              One Step Checkout Thank You Page by Amasty
+amasty/module-cms-export-entity                                   1.1.1              Cms Export Entity by Amasty
+amasty/module-cms-import-entity                                   1.2.1              Cms Import Entity by Amasty
+amasty/module-company-account                                     2.0.8              Company Account by Amasty
+amasty/module-cron-schedule                                       1.0.2              Cron Schedule by Amasty
+amasty/module-cross-linking                                       1.2.6              Amasty Seo Cross Linking
+amasty/module-custom-stock-status-timer                           1.0.1              Custom Stock Status Countdown by Amasty
+amasty/module-customer-export                                     1.7.4              Customer Export by Amasty
+amasty/module-customer-export-entity                              1.0.3              Customer Export Entity by Amasty
+amasty/module-customer-import                                     1.6.2              Import Customers by Amasty
+amasty/module-customer-import-entity                              1.2.2              Customer Import Entity by Amasty
+amasty/module-delivery-date-manager                               1.0.7              Amasty Delivery Date Manager
+amasty/module-eav-export-entity                                   1.0.2              Eav Export Entity by Amasty
+amasty/module-eav-import-entity                                   1.1.1              Eav Import Entity by Amasty
+amasty/module-elastic-search                                      1.16.0             Elastic Search Module by Amasty
+amasty/module-elastic-search-graphql                              1.0.6              Elastic Search GraphQl By Amasty
+amasty/module-export-core                                         1.6.7              Export Core by Amasty
+amasty/module-export-pro                                          1.6.3              Export Pro by Amasty
+amasty/module-faq-product-questions                               2.12.4             FAQ and Products by Amasty team
+amasty/module-fpc-warmer                                          2.4.6              Full Page Cache Warmer by Amasty
+amasty/module-gift-card                                           2.9.0              Gift Card by Amasty
+amasty/module-gift-card-account                                   1.5.0              Gift Card Account by Amasty
+amasty/module-gift-card-pro-functionality                         1.1.1              Gift Card Pro by Amasty
+amasty/module-gift-card-sms-notifications                         1.0.1              Gift Card Sms Notifications by Amasty
+amasty/module-google-address-autocomplete                         1.0.2              Google Address Autocomplete By Amasty
+amasty/module-google-rich-snippets                                1.6.2              Google Rich Snippets by Amasty
+amasty/module-image-optimizer                                     1.1.7              Image Optimizer by Amasty
+amasty/module-image-optimizer-ui                                  1.1.6              Image Optimizer Ui by Amasty
+amasty/module-import-core                                         1.5.7              Import Core by Amasty
+amasty/module-import-export                                       1.5.3              Import and Export Extension by Amasty
+amasty/module-import-export-core                                  1.1.4              Import Export Core by Amasty
+amasty/module-import-pro                                          1.6.2              Import Pro by Amasty
+amasty/module-improved-layered-navigation-page                    2.7.17             Improved Layered Navigation by Amasty - Page sub-module
+amasty/module-inventory-export-entity                             1.0.4              Inventory Export Entity by Amasty
+amasty/module-lazy-load                                           1.1.7              Lazy Load by Amasty
+amasty/module-lazy-load-ui                                        1.0.3              Lazy Load Admin Ui by Amasty
+amasty/module-loyalty-program                                     2.7.15             Loyalty Program by Amasty
+amasty/module-mage-2.4.5-fix                                      1.0.1              Mage 2.4.5 fix by Amasty
+amasty/module-magento-custom-form                                 1.18.2             Custom Form by Amasty
+amasty/module-magento-custom-form-graphql                         1.0.4              Custom Form Graphql by Amasty
+amasty/module-mass-order-actions                                  1.6.2              Mass Order Action by Amasty
+amasty/module-mixin-rewrite-patch                                 1.0.0              Mixin Rewrite Patch by Amasty
+amasty/module-multiple-wishlist                                   1.1.5              Multiple Wishlist for Magento 2 by Amasty
+amasty/module-one-step-checkout-core                              1.2.8              One Step Checkout Core by Amasty
+amasty/module-one-step-checkout-premium-package                   1.0.0              One Step Checkout Premium Package by Amasty
+amasty/module-open-graph-tags                                     1.0.2              Open Graph Tags by Amasty
+amasty/module-optimizer-pro                                       2.3.3              Page Speed Optimizer Pro by Amasty
+amasty/module-order-export                                        1.8.8              Export Orders by Amasty
+amasty/module-order-export-entity                                 1.3.8              Order Export Entity by Amasty
+amasty/module-order-flags                                         1.0.10             Order Notes by Amasty
+amasty/module-order-import                                        1.8.2              Import Orders by Amasty
+amasty/module-order-import-entity                                 1.2.1              Order Import Entity by Amasty
+amasty/module-order-status                                        1.1.1              Order Status by Amasty
+amasty/module-page-speed-optimizer                                2.2.3              Google Page Speed Optimizer by Amasty
+amasty/module-page-speed-tools                                    1.0.9              Google Page Speed Tools by Amasty
+amasty/module-product-export                                      1.7.5              Product Export by Amasty
+amasty/module-product-export-entity                               1.1.10             Product Export Entity by Amasty
+amasty/module-product-import                                      1.4.4              Import Products by Amasty
+amasty/module-product-import-entity                               1.1.7              Product Import Entity by Amasty
+amasty/module-product-status-premium                              1.0.1              Product Availability Status Premium by Amasty
+amasty/module-promo-countdown                                     1.1.2              Promotion Countdown by Amasty
+amasty/module-quick-order                                         2.0.3              Quick Order for Magento 2 by Amasty
+amasty/module-regenerate-url-rewrites                             1.1.1              Regenerate Url Rewrites by Amasty
+amasty/module-report-builder                                      1.4.0              Custom Reports Builder by Amasty
+amasty/module-request-quote                                       2.5.0              Request a Quote by Amasty
+amasty/module-sales-reps-and-dealers                              1.2.15             Sales Reps and Dealers by Amasty
+amasty/module-salesrulewizard                                     1.0.4              Sales Rule Wizard by Amasty
+amasty/module-search-export-entity                                1.0.1              Search Export Entity by Amasty
+amasty/module-search-import-entity                                1.0.1              Search Import Entity by Amasty
+amasty/module-security-suite                                      1.0.1              Security Suite By Amasty
+amasty/module-seo-toolkit                                         2.1.2              SEO Toolkit by Amasty
+amasty/module-seo-toolkit-lite                                    1.1.4              SEO Toolkit Lite by Amasty
+amasty/module-seo-toolkit-premium                                 1.0.0              SEO Toolkit Premium by Amasty
+amasty/module-shipping-suite                                      1.1.2              Shipping Suite By Amasty
+amasty/module-shippingarea                                        1.0.7              Shipping Areas by Amasty
+amasty/module-shop-by-base                                        2.16.4             Base Improved Layered Navigation by Amasty
+amasty/module-shop-by-brand                                       2.13.2             Shop by Brand by Amasty
+amasty/module-shop-by-quick-config                                1.1.4              ILN Quick Config by Amasty
+amasty/module-shopby-premium                                      1.12.3             Improved Layered Navigation Premium by Amasty
+amasty/module-single-step-checkout                                4.2.0              One Step Checkout by Amasty
+amasty/module-special-promo                                       2.10.0             Special Promotions by Amasty
+amasty/module-special-promo-pro                                   2.9.0              Special Promotions Pro by Amasty
+amasty/module-store-locator                                       2.5.7              Store Locator by Amasty
+amasty/module-store-locator-indexer                               1.0.4              Store Locator Indexer by Amasty
+amasty/module-store-pickup-with-locator                           2.5.8              Store Pickup with Locator by Amasty
+amasty/module-thank-you-page                                      1.2.3              Thank You Page by Amasty
+amasty/module-unique-product-url                                  1.0.25             Unique Product URL by Amasty
+amasty/module-url-rewrite-export-entity                           1.0.4              URL Rewrite Export Entity by Amasty
+amasty/module-url-rewrite-import-entity                           1.1.3              URL Rewrite Import Entity by Amasty
+amasty/module-visual-merchandiser                                 1.5.9              Visual Merchandiser by Amasty
+amasty/module-xml-google-sitemap                                  2.1.3              XML Google Sitemap By Amasty
+amasty/number                                                     1.1.9              Custom Order Number By Amasty
+amasty/ogrid                                                      1.4.5              Extended Order Grid By Amasty
+amasty/order-management-suite-premium                             1.2.0              Order Management Suite Premium by Amasty
+amasty/orderarchive                                               1.1.17             Archive Orders By Amasty
+amasty/orderattr                                                  3.7.13             Order Attributes by Amasty
+amasty/payrestriction                                             2.3.11             Payment Restrictions by Amasty
+amasty/pgrid                                                      1.10.17            Extended Product Grid with Editor by Amasty
+amasty/preorder                                                   2.0.6              Pre Order By Amasty
+amasty/promo                                                      2.12.0             Free Gift by Amasty
+amasty/reindex-from-admin                                         1.1.2              Indexer Reindex In Admin Panel by Amasty
+amasty/rewards                                                    1.17.6             Amasty Rewards
+amasty/rewards-graph-ql                                           1.2.0              Reward Points GraphQl By Amasty
+amasty/rgrid                                                      1.0.9              Extended Rules Grid by Amasty
+amasty/securityauth                                               1.1.7              Amasty Two Factor Authentication
+amasty/shippingtablerates                                         1.10.7             Shipping Table Rates by Amasty
+amasty/shiprestriction                                            2.6.3              Shipping Restrictions By Amasty
+amasty/shiprules                                                  2.8.4              Shipping Rules By Amasty
+amasty/shopby                                                     2.20.0             Improved Layered Navigation by Amasty
+amasty/shopby-filter-analytics                                    1.0.0              Improved Layered Navigation by Amasty - Filter Analy...
+amasty/shopby-seo                                                 2.14.0             Improved Layered Navigation by Amasty - SEO sub-module
+amasty/social-login                                               1.10.5             Social Login by Amasty
+amasty/stockstatus                                                2.3.8              Custom Stock Status by Amasty
+amasty/store-credit                                               1.2.3              Store Credit by Amasty
+amasty/system-common-rules                                        2.4.11             Common Rules by Amasty
+amasty/visual-merch-core                                          1.1.1              Visual Merch Core by Amasty
+amasty/visual-merch-ui                                            1.0.10             Visual merchandiser ui part by Amasty
+amasty/xnotif                                                     1.14.2             Out Of Stock Notification by Amasty
+amasty/xsearch                                                    1.18.3             Search Autocomplete by Amasty
+astock/stock-api-libphp                                           1.1.5              Adobe Stock API library
+aws/aws-crt-php                                                   v1.0.2             AWS Common Runtime for PHP
+aws/aws-sdk-php                                                   3.252.4            AWS SDK for PHP - Use Amazon Web Services in your PH...
+bacon/bacon-qr-code                                               2.0.8              BaconQrCode is a QR code generator for PHP.
+beberlei/assert                                                   v3.3.2             Thin assertion library for input validation in busin...
+behat/gherkin                                                     v4.9.0             Gherkin DSL parser for PHP
+box/spout                                                         v3.3.0             PHP Library to read and write spreadsheet files (CSV...
+braintree/braintree_php                                           6.5.1              Braintree PHP Client Library
+brick/math                                                        0.9.3              Arbitrary-precision arithmetic library
+brick/varexporter                                                 0.3.7              A powerful alternative to var_export(), which can ex...
+bsscommerce/bundle-option-image                                   1.0.3               Bundle Option Image Magento2
+bsscommerce/facebook-pixel                                        1.0.3              facebook pixel for magento 2
+christian-riesen/base32                                           1.6.0              Base32 encoder/decoder according to RFC 4648
+codeception/codeception                                           4.2.2              BDD-style testing framework
+codeception/lib-asserts                                           1.13.2             Assertion methods used by Codeception core and Asser...
+codeception/module-asserts                                        1.3.1              Codeception module containing various assertions
+codeception/module-sequence                                       1.0.1              Sequence module for Codeception
+codeception/module-webdriver                                      1.4.1              WebDriver module for Codeception
+codeception/phpunit-wrapper                                       9.0.9              PHPUnit classes used by Codeception
+codeception/stub                                                  4.0.2              Flexible Stub wrapper for PHPUnit's Mock Builder
+colinmollenhour/cache-backend-file                                v1.4.5             The stock Zend_Cache_Backend_File backend has extrem...
+colinmollenhour/cache-backend-redis                               1.14.2             Zend_Cache backend using Redis with full support for...
+colinmollenhour/credis                                            v1.13.0            Credis is a lightweight interface to the Redis key-v...
+colinmollenhour/php-redis-session-abstract                        v1.4.7             A Redis-based session handler with optimistic locking
+composer/ca-bundle                                                1.3.4              Lets you find a path to the system CA bundle, and in...
+composer/composer                                                 2.0.13             Composer helps you declare, manage and install depen...
+composer/metadata-minifier                                        1.0.0              Small utility library that handles metadata minifica...
+composer/semver                                                   3.3.2              Semver library that offers utilities, version constr...
+composer/spdx-licenses                                            1.5.7              SPDX licenses list and validation library.
+composer/xdebug-handler                                           1.4.6              Restarts a process without Xdebug.
+csharpru/vault-php                                                4.3.1              Best Vault client for PHP that you can find
+d4h/finediff                                                      1.0.1              PHP implementation of a Fine granularity Diff engine
+dasprid/enum                                                      1.0.3              PHP 7.1 enum implementation
+dealerdirect/phpcodesniffer-composer-installer                    v0.7.2             PHP_CodeSniffer Standards Composer Installer Plugin
+doctrine/annotations                                              1.13.3             Docblock Annotations Parser
+doctrine/instantiator                                             1.4.1              A small, lightweight utility to instantiate objects ...
+doctrine/lexer                                                    1.2.3              PHP Doctrine Lexer parser library that can be used i...
+dompdf/dompdf                                                     v2.0.1             DOMPDF is a CSS 2.1 compliant HTML to PDF converter
+elasticsearch/elasticsearch                                       v7.17.1            PHP Client for Elasticsearch
+endroid/qr-code                                                   4.6.1              Endroid QR Code
+ezimuel/guzzlestreams                                             3.1.0              Fork of guzzle/streams (abandoned) to be used with e...
+ezimuel/ringphp                                                   1.2.2              Fork of guzzle/RingPHP (abandoned) to be used with e...
+ezyang/htmlpurifier                                               v4.16.0            Standards compliant HTML filter written in PHP
+fgrosse/phpasn1                                                   v2.4.0             A PHP Framework that allows you to encode and decode...
+firebase/php-jwt                                                  v6.3.1             A simple library to encode and decode JSON Web Token...
+friendsofphp/php-cs-fixer                                         v2.18.7            A tool to automatically fix PHP code style
+friendsofphp/proxy-manager-lts                                    v1.0.13            Adding support for a wider range of PHP versions to ...
+google/apiclient                                                  v2.12.6            Client library for Google APIs
+google/apiclient-services                                         v0.277.0           Client library for Google APIs
+google/auth                                                       v1.24.0            Google Auth Library for PHP
+google/recaptcha                                                  1.2.4              Client library for reCAPTCHA, a free service that pr...
+graham-campbell/guzzle-factory                                    v5.1.2             Provides A Simple Guzzle Factory With Good Defaults
+guzzlehttp/guzzle                                                 7.5.0              Guzzle is a PHP HTTP client library
+guzzlehttp/promises                                               1.5.2              Guzzle promises library
+guzzlehttp/psr7                                                   2.4.3              PSR-7 message implementation that also provides comm...
+hybridauth/hybridauth                                             v3.8.2             PHP Social Authentication Library
+jms/metadata                                                      2.7.0              Class/method/property metadata management in PHP
+jms/serializer                                                    3.18.2             Library for (de-)serializing data of any complexity;...
+justinrainbow/json-schema                                         5.2.12             A library to validate a json schema.
+laminas/laminas-captcha                                           2.14.0             Generate and validate CAPTCHAs using Figlets, images...
+laminas/laminas-code                                              4.5.2              Extensions to the PHP Reflection API, static code sc...
+laminas/laminas-config                                            3.7.0              provides a nested object property based user interfa...
+laminas/laminas-db                                                2.15.1             Database abstraction layer, SQL abstraction, result ...
+laminas/laminas-dependency-plugin                                 2.4.0              Replace zendframework and zfcampus packages with the...
+laminas/laminas-di                                                3.9.1              Automated dependency injection for PSR-11 containers
+laminas/laminas-diactoros                                         2.17.0             PSR HTTP Message implementations
+laminas/laminas-escaper                                           2.10.0             Securely and safely escape HTML, HTML attributes, Ja...
+laminas/laminas-eventmanager                                      3.5.0              Trigger and listen to events within a PHP application
+laminas/laminas-feed                                              2.18.2             provides functionality for creating and consuming RS...
+laminas/laminas-http                                              2.16.1             Provides an easy interface for performing Hyper-Text...
+laminas/laminas-json                                              3.3.0              provides convenience methods for serializing native ...
+laminas/laminas-loader                                            2.8.0              Autoloading and plugin loading strategies
+laminas/laminas-mail                                              2.16.0             Provides generalized functionality to compose and se...
+laminas/laminas-mime                                              2.10.0             Create and parse MIME messages and parts
+laminas/laminas-modulemanager                                     2.12.0             Modular application system for laminas-mvc applications
+laminas/laminas-mvc                                               3.3.5              Laminas's event-driven MVC layer, including MVC Appl...
+laminas/laminas-recaptcha                                         3.4.0              OOP wrapper for the ReCaptcha web service
+laminas/laminas-router                                            3.9.0              Flexible routing system for HTTP and console applica...
+laminas/laminas-server                                            2.11.1             Create Reflection-based RPC servers
+laminas/laminas-servicemanager                                    3.17.0             Factory-Driven Dependency Injection Container
+laminas/laminas-session                                           2.13.0             Object-oriented interface to PHP sessions and storage
+laminas/laminas-soap                                              2.10.0            
+laminas/laminas-stdlib                                            3.13.0             SPL extensions, array utilities, error handlers, and...
+laminas/laminas-text                                              2.9.0              Create FIGlets and text-based tables
+laminas/laminas-uri                                               2.9.1              A component that aids in manipulating and validating...
+laminas/laminas-validator                                         2.25.0             Validation classes for a wide range of domains, and ...
+laminas/laminas-view                                              2.23.0             Flexible view layer supporting and providing multipl...
+laminas/laminas-zendframework-bridge                              1.6.1              Alias legacy ZF class names to Laminas Project equiv...
+league/flysystem                                                  2.4.5              File storage abstraction for PHP
+league/flysystem-aws-s3-v3                                        2.5.0              AWS S3 filesystem adapter for Flysystem.
+league/mime-type-detection                                        1.11.0             Mime-type detection for Flysystem
+lusitanian/oauth                                                  v0.8.11            PHP 5.3+ oAuth 1/2 Library
+magento/adobe-stock-integration                                   2.1.4              Adobe Stock integration
+magento/composer                                                  1.8.0              Magento composer library helps to instantiate Compos...
+magento/composer-dependency-version-audit-plugin                  0.1.1              Validating packages through a composer plugin
+magento/composer-root-update-plugin                               1.1.2              Plugin to look ahead for Magento project root change...
+magento/framework                                                 103.0.5            N/A
+magento/framework-amqp                                            100.4.3            N/A
+magento/framework-bulk                                            101.0.1            N/A
+magento/framework-message-queue                                   100.4.5            N/A
+magento/google-shopping-ads                                       4.0.1              Connect your Magento admin with Google Merchant Cent...
+magento/inventory-composer-installer                              1.2.0              Composer plugin for Magento Multi Source Inventory
+magento/inventory-metapackage                                     1.2.5              Metapackage with Magento Inventory modules for simpl...
+magento/language-de_de                                            100.4.0            German (Germany) language
+magento/language-en_us                                            100.4.0            English (United States) language
+magento/language-es_es                                            100.4.0            Spanish (Spain) language
+magento/language-fr_fr                                            100.4.0            French (France) language
+magento/language-nl_nl                                            100.4.0            Dutch (Netherlands) language
+magento/language-pt_br                                            100.4.0            Portuguese (Brazil) language
+magento/language-zh_hans_cn                                       100.4.0            Chinese (China) language
+magento/magento-cloud-patches                                     1.0.20             Provides critical fixes for Magento 2 Enterprise Edi...
+magento/magento-coding-standard                                   4                  A set of Magento specific PHP CodeSniffer rules.
+magento/magento-composer-installer                                0.3.0              Composer installer for Magento modules
+magento/magento2-base                                             2.4.5              Magento 2 Base (Community Edition)
+magento/magento2-functional-testing-framework                     3.12.0             Magento2 Functional Testing Framework
+magento/module-admin-adobe-ims                                    100.4.0            N/A
+magento/module-admin-analytics                                    100.4.4            N/A
+magento/module-admin-notification                                 100.4.4            N/A
+magento/module-adobe-ims                                          2.1.4              Magento module responsible for authentication to Ado...
+magento/module-adobe-ims-api                                      2.1.2              Implementation of Magento module responsible for aut...
+magento/module-adobe-stock-admin-ui                               1.3.2              Magento module responsible for the admin panel UI im...
+magento/module-adobe-stock-asset                                  1.3.1              Magento module responsible for the Adobe Stock asset...
+magento/module-adobe-stock-asset-api                              2.0.1              Magento module responsible for Adobe Stock assets ha...
+magento/module-adobe-stock-client                                 1.3.2              Magento module responsible for interaction with Adob...
+magento/module-adobe-stock-client-api                             2.1.2              Magento module responsible for interaction with Adob...
+magento/module-adobe-stock-image                                  1.3.3              Magento module responsible for the images handling i...
+magento/module-adobe-stock-image-admin-ui                         1.3.3              Magento module responsible for the admin panel image...
+magento/module-adobe-stock-image-api                              1.3.1              Magento module responsible for the images handling
+magento/module-advanced-pricing-import-export                     100.4.5            N/A
+magento/module-advanced-search                                    100.4.3            N/A
+magento/module-amqp                                               100.4.2            N/A
+magento/module-analytics                                          100.4.5            N/A
+magento/module-asynchronous-operations                            100.4.5            N/A
+magento/module-authorization                                      100.4.5            Authorization module provides access to Magento ACL ...
+magento/module-aws-s3                                             100.4.3            N/A
+magento/module-aws-s3-page-builder                                1.0.2              Aws S3 Page Builder module
+magento/module-backend                                            102.0.5            N/A
+magento/module-backup                                             100.4.5            N/A
+magento/module-bundle                                             101.0.5            N/A
+magento/module-bundle-graph-ql                                    100.4.5            N/A
+magento/module-bundle-import-export                               100.4.4            N/A
+magento/module-cache-invalidate                                   100.4.3            N/A
+magento/module-captcha                                            100.4.5            N/A
+magento/module-cardinal-commerce                                  100.4.3            Provides a possibility to enable 3-D Secure 2.0 supp...
+magento/module-catalog                                            104.0.5            N/A
+magento/module-catalog-analytics                                  100.4.2            N/A
+magento/module-catalog-cms-graph-ql                               100.4.1            N/A
+magento/module-catalog-customer-graph-ql                          100.4.4            N/A
+magento/module-catalog-graph-ql                                   100.4.5            N/A
+magento/module-catalog-import-export                              101.1.5            N/A
+magento/module-catalog-inventory                                  100.4.5            N/A
+magento/module-catalog-inventory-graph-ql                         100.4.2            N/A
+magento/module-catalog-page-builder-analytics                     1.6.2              Catalog Page Builder Analytics module
+magento/module-catalog-rule                                       101.2.5            N/A
+magento/module-catalog-rule-configurable                          100.4.4            N/A
+magento/module-catalog-rule-graph-ql                              100.4.2            N/A
+magento/module-catalog-search                                     102.0.5            Catalog search
+magento/module-catalog-url-rewrite                                100.4.5            N/A
+magento/module-catalog-url-rewrite-graph-ql                       100.4.3            N/A
+magento/module-catalog-widget                                     100.4.5            N/A
+magento/module-checkout                                           100.4.5            N/A
+magento/module-checkout-agreements                                100.4.4            N/A
+magento/module-checkout-agreements-graph-ql                       100.4.1            N/A
+magento/module-cms                                                104.0.5            N/A
+magento/module-cms-graph-ql                                       100.4.2            N/A
+magento/module-cms-page-builder-analytics                         1.6.2              CMS Page Builder Analytics module
+magento/module-cms-url-rewrite                                    100.4.4            N/A
+magento/module-cms-url-rewrite-graph-ql                           100.4.3            N/A
+magento/module-compare-list-graph-ql                              100.4.1            N/A
+magento/module-config                                             101.2.5            N/A
+magento/module-configurable-import-export                         100.4.3            N/A
+magento/module-configurable-product                               100.4.5            N/A
+magento/module-configurable-product-graph-ql                      100.4.5            N/A
+magento/module-configurable-product-sales                         100.4.2            N/A
+magento/module-contact                                            100.4.4            N/A
+magento/module-cookie                                             100.4.5            N/A
+magento/module-cron                                               100.4.5            N/A
+magento/module-csp                                                100.4.4            CSP module enables Content Security Policies for Mag...
+magento/module-currency-symbol                                    100.4.3            N/A
+magento/module-customer                                           103.0.5            N/A
+magento/module-customer-analytics                                 100.4.2            N/A
+magento/module-customer-downloadable-graph-ql                     100.4.1            N/A
+magento/module-customer-graph-ql                                  100.4.5            N/A
+magento/module-customer-import-export                             100.4.5            N/A
+magento/module-deploy                                             100.4.5            N/A
+magento/module-developer                                          100.4.5            N/A
+magento/module-dhl                                                100.4.4            N/A
+magento/module-directory                                          100.4.5            N/A
+magento/module-directory-graph-ql                                 100.4.3            N/A
+magento/module-downloadable                                       100.4.5            N/A
+magento/module-downloadable-graph-ql                              100.4.5            N/A
+magento/module-downloadable-import-export                         100.4.4            N/A
+magento/module-eav                                                102.1.5            N/A
+magento/module-eav-graph-ql                                       100.4.2            N/A
+magento/module-elasticsearch                                      101.0.5            N/A
+magento/module-elasticsearch-6                                    100.4.5            N/A
+magento/module-elasticsearch-7                                    100.4.5            N/A
+magento/module-email                                              101.1.5            N/A
+magento/module-encryption-key                                     100.4.3            N/A
+magento/module-fedex                                              100.4.3            N/A
+magento/module-gift-message                                       100.4.4            N/A
+magento/module-gift-message-graph-ql                              100.4.3            N/A
+magento/module-google-adwords                                     100.4.2            N/A
+magento/module-google-analytics                                   100.4.1            N/A
+magento/module-google-gtag                                        100.4.0            N/A
+magento/module-google-optimizer                                   100.4.4            N/A
+magento/module-graph-ql                                           100.4.5            N/A
+magento/module-graph-ql-cache                                     100.4.2            N/A
+magento/module-grouped-catalog-inventory                          100.4.2            N/A
+magento/module-grouped-import-export                              100.4.3            N/A
+magento/module-grouped-product                                    100.4.5            N/A
+magento/module-grouped-product-graph-ql                           100.4.5            N/A
+magento/module-import-export                                      101.0.5            N/A
+magento/module-indexer                                            100.4.5            N/A
+magento/module-instant-purchase                                   100.4.4            N/A
+magento/module-integration                                        100.4.5            N/A
+magento/module-inventory                                          1.2.3              N/A
+magento/module-inventory-admin-ui                                 1.2.3              N/A
+magento/module-inventory-advanced-checkout                        1.2.2              N/A
+magento/module-inventory-api                                      1.2.3              N/A
+magento/module-inventory-bundle-import-export                     1.1.1              N/A
+magento/module-inventory-bundle-product                           1.2.2              N/A
+magento/module-inventory-bundle-product-admin-ui                  1.2.2              N/A
+magento/module-inventory-bundle-product-indexer                   1.1.2              N/A
+magento/module-inventory-cache                                    1.2.3              N/A
+magento/module-inventory-catalog                                  1.3.0              N/A
+magento/module-inventory-catalog-admin-ui                         1.2.3              N/A
+magento/module-inventory-catalog-api                              1.3.3              N/A
+magento/module-inventory-catalog-frontend-ui                      1.0.2              N/A
+magento/module-inventory-catalog-search                           1.2.3              N/A
+magento/module-inventory-catalog-search-bundle-product            1.0.1              N/A
+magento/module-inventory-catalog-search-configurable-product      1.0.1              N/A
+magento/module-inventory-configurable-product                     1.2.3              N/A
+magento/module-inventory-configurable-product-admin-ui            1.2.3              N/A
+magento/module-inventory-configurable-product-frontend-ui         1.0.3              N/A
+magento/module-inventory-configurable-product-indexer             1.2.3              N/A
+magento/module-inventory-configuration                            1.2.2              N/A
+magento/module-inventory-configuration-api                        1.2.1              N/A
+magento/module-inventory-distance-based-source-selection          1.2.2              N/A
+magento/module-inventory-distance-based-source-selection-admin-ui 1.2.1              N/A
+magento/module-inventory-distance-based-source-selection-api      1.2.1              N/A
+magento/module-inventory-elasticsearch                            1.2.2              N/A
+magento/module-inventory-export-stock                             1.2.2              N/A
+magento/module-inventory-export-stock-api                         1.2.1              N/A
+magento/module-inventory-graph-ql                                 1.2.2              N/A
+magento/module-inventory-grouped-product                          1.3.0              N/A
+magento/module-inventory-grouped-product-admin-ui                 1.2.2              N/A
+magento/module-inventory-grouped-product-indexer                  1.2.3              N/A
+magento/module-inventory-import-export                            1.2.3              N/A
+magento/module-inventory-in-store-pickup                          1.1.1              N/A
+magento/module-inventory-in-store-pickup-admin-ui                 1.1.2              N/A
+magento/module-inventory-in-store-pickup-api                      1.1.1              N/A
+magento/module-inventory-in-store-pickup-frontend                 1.1.3              N/A
+magento/module-inventory-in-store-pickup-graph-ql                 1.1.2              N/A
+magento/module-inventory-in-store-pickup-multishipping            1.1.1              N/A
+magento/module-inventory-in-store-pickup-quote                    1.1.1              N/A
+magento/module-inventory-in-store-pickup-quote-graph-ql           1.1.1              N/A
+magento/module-inventory-in-store-pickup-sales                    1.1.1              N/A
+magento/module-inventory-in-store-pickup-sales-admin-ui           1.1.3              N/A
+magento/module-inventory-in-store-pickup-sales-api                1.1.1              N/A
+magento/module-inventory-in-store-pickup-shipping                 1.1.2              N/A
+magento/module-inventory-in-store-pickup-shipping-admin-ui        1.1.1              N/A
+magento/module-inventory-in-store-pickup-shipping-api             1.1.1              N/A
+magento/module-inventory-in-store-pickup-webapi-extension         1.1.1              N/A
+magento/module-inventory-indexer                                  2.2.0              N/A
+magento/module-inventory-low-quantity-notification                1.2.2              N/A
+magento/module-inventory-low-quantity-notification-admin-ui       1.2.2              N/A
+magento/module-inventory-low-quantity-notification-api            1.2.2              N/A
+magento/module-inventory-multi-dimensional-indexer-api            1.2.1              N/A
+magento/module-inventory-product-alert                            1.2.2              N/A
+magento/module-inventory-quote-graph-ql                           1.0.2              N/A
+magento/module-inventory-requisition-list                         1.2.3              N/A
+magento/module-inventory-reservation-cli                          1.2.2              N/A
+magento/module-inventory-reservations                             1.2.1              N/A
+magento/module-inventory-reservations-api                         1.2.1              N/A
+magento/module-inventory-sales                                    1.3.0              N/A
+magento/module-inventory-sales-admin-ui                           1.2.3              N/A
+magento/module-inventory-sales-api                                1.2.2              N/A
+magento/module-inventory-sales-frontend-ui                        1.2.2              N/A
+magento/module-inventory-setup-fixture-generator                  1.2.1              N/A
+magento/module-inventory-shipping                                 1.2.2              N/A
+magento/module-inventory-shipping-admin-ui                        1.2.3              N/A
+magento/module-inventory-source-deduction-api                     1.2.2              N/A
+magento/module-inventory-source-selection                         1.2.1              N/A
+magento/module-inventory-source-selection-api                     1.4.2              N/A
+magento/module-inventory-swatches-frontend-ui                     1.0.1              N/A
+magento/module-inventory-visual-merchandiser                      1.1.3              N/A
+magento/module-inventory-wishlist                                 1.0.2              N/A
+magento/module-jwt-framework-adapter                              100.4.1            JWT Manager implementation based on jwt-framework
+magento/module-jwt-user-token                                     100.4.0            Introduces JWT token support for web API authentication
+magento/module-layered-navigation                                 100.4.5            N/A
+magento/module-login-as-customer                                  100.4.5            Allow for admin to enter a customer account
+magento/module-login-as-customer-admin-ui                         100.4.5           
+magento/module-login-as-customer-api                              100.4.4            Allow for admin to enter a customer account
+magento/module-login-as-customer-assistance                       100.4.4           
+magento/module-login-as-customer-frontend-ui                      100.4.4           
+magento/module-login-as-customer-graph-ql                         100.4.2            Flexible login as a customer so a merchant or mercha...
+magento/module-login-as-customer-log                              100.4.3           
+magento/module-login-as-customer-page-cache                       100.4.4           
+magento/module-login-as-customer-quote                            100.4.3           
+magento/module-login-as-customer-sales                            100.4.4           
+magento/module-marketplace                                        100.4.3            N/A
+magento/module-media-content                                      100.4.3            Magento module provides the implementation for manag...
+magento/module-media-content-api                                  100.4.4            Magento module provides the API interfaces for manag...
+magento/module-media-content-catalog                              100.4.3            Magento module provides the implementation of MediaC...
+magento/module-media-content-cms                                  100.4.3            Magento module provides the implementation of MediaC...
+magento/module-media-content-synchronization                      100.4.4            Magento module provides implementation of the media ...
+magento/module-media-content-synchronization-api                  100.4.3            Magento module responsible for the media content syn...
+magento/module-media-content-synchronization-catalog              100.4.2            Magento module provides the implementation of MediaC...
+magento/module-media-content-synchronization-cms                  100.4.2            Magento module provides the implementation of MediaC...
+magento/module-media-gallery                                      100.4.4            Magento module responsible for media handling
+magento/module-media-gallery-api                                  101.0.4            Magento module responsible for media gallery asset a...
+magento/module-media-gallery-catalog                              100.4.2            Magento module responsible for catalog gallery proce...
+magento/module-media-gallery-catalog-integration                  100.4.2            Magento module responsible for extending catalog ima...
+magento/module-media-gallery-catalog-ui                           100.4.2            Magento module that implement category grid for medi...
+magento/module-media-gallery-cms-ui                               100.4.2            Cms related UI elements in the magento media gallery
+magento/module-media-gallery-integration                          100.4.4            Magento module responsible for integration of enhanc...
+magento/module-media-gallery-metadata                             100.4.3            Magento module responsible for images metadata proce...
+magento/module-media-gallery-metadata-api                         100.4.2            Magento module responsible for media gallery metadat...
+magento/module-media-gallery-renditions                           100.4.3            Magento module that implements height and width fiel...
+magento/module-media-gallery-renditions-api                       100.4.2            Magento module that is responsible for the API imple...
+magento/module-media-gallery-synchronization                      100.4.4            Magento module provides implementation of the media ...
+magento/module-media-gallery-synchronization-api                  100.4.3            Magento module responsible for the media gallery syn...
+magento/module-media-gallery-synchronization-metadata             100.4.1            Magento module responsible for images metadata synch...
+magento/module-media-gallery-ui                                   100.4.4            Magento module responsible for the media gallery UI ...
+magento/module-media-gallery-ui-api                               100.4.3            Magento module responsible for the media gallery UI ...
+magento/module-media-storage                                      100.4.4            N/A
+magento/module-message-queue                                      100.4.5            N/A
+magento/module-msrp                                               100.4.4            N/A
+magento/module-msrp-configurable-product                          100.4.2            N/A
+magento/module-msrp-grouped-product                               100.4.2            N/A
+magento/module-multishipping                                      100.4.5            N/A
+magento/module-mysql-mq                                           100.4.3            N/A
+magento/module-new-relic-reporting                                100.4.3            N/A
+magento/module-newsletter                                         100.4.5            N/A
+magento/module-newsletter-graph-ql                                100.4.2            Provides GraphQl functionality for the newsletter su...
+magento/module-offline-payments                                   100.4.3            N/A
+magento/module-offline-shipping                                   100.4.4            N/A
+magento/module-page-builder                                       2.2.3              Page Builder module
+magento/module-page-builder-admin-analytics                       1.1.2              Page Builder Admin Analytics module
+magento/module-page-builder-analytics                             1.6.2              Page Builder Analytics module
+magento/module-page-cache                                         100.4.5            N/A
+magento/module-payment                                            100.4.5            N/A
+magento/module-payment-graph-ql                                   100.4.0            N/A
+magento/module-paypal                                             101.0.5            N/A
+magento/module-paypal-captcha                                     100.4.2            Provides CAPTCHA validation for PayPal Payflow Pro
+magento/module-paypal-graph-ql                                    100.4.3            GraphQl support for Paypal
+magento/module-persistent                                         100.4.5            N/A
+magento/module-product-alert                                      100.4.4            N/A
+magento/module-product-video                                      100.4.5            Add Video to Products
+magento/module-quote                                              101.2.5            N/A
+magento/module-quote-analytics                                    100.4.4            N/A
+magento/module-quote-bundle-options                               100.4.1            Magento module provides data provider for creating b...
+magento/module-quote-configurable-options                         100.4.1            Magento module provides data provider for creating b...
+magento/module-quote-downloadable-links                           100.4.1            Magento module provides data provider for creating b...
+magento/module-quote-graph-ql                                     100.4.5            N/A
+magento/module-re-captcha-admin-ui                                1.1.2              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-checkout                                1.1.2              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-checkout-sales-rule                     1.1.1              Google ReCaptcha integration for Magento2 coupons
+magento/module-re-captcha-contact                                 1.1.1              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-customer                                1.1.3              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-frontend-ui                             1.1.3              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-migration                               1.1.2              Google reCAPTCHA config migration for Magento2
+magento/module-re-captcha-newsletter                              1.1.2              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-paypal                                  1.1.2              Google reCaptcha integration for Magento2 PayPal Pay...
+magento/module-re-captcha-review                                  1.1.2              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-send-friend                             1.1.2              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-store-pickup                            1.0.1              Google reCaptcha integration for Magento2 Inventory ...
+magento/module-re-captcha-ui                                      1.1.2              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-user                                    1.1.2              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-validation                              1.1.1              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-validation-api                          1.1.1              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-version-2-checkbox                      2.0.2              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-version-2-invisible                     2.0.2              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-version-3-invisible                     2.0.2              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-webapi-api                              1.0.1              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-webapi-graph-ql                         1.0.1              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-webapi-rest                             1.0.1              Google reCAPTCHA integration for Magento2
+magento/module-re-captcha-webapi-ui                               1.0.1              Google reCAPTCHA integration for Magento2
+magento/module-related-product-graph-ql                           100.4.2            N/A
+magento/module-release-notification                               100.4.3            N/A
+magento/module-remote-storage                                     100.4.3            N/A
+magento/module-reports                                            100.4.5            N/A
+magento/module-require-js                                         100.4.1            N/A
+magento/module-review                                             100.4.5            N/A
+magento/module-review-analytics                                   100.4.2            N/A
+magento/module-review-graph-ql                                    100.4.1            N/A
+magento/module-robots                                             101.1.1            N/A
+magento/module-rss                                                100.4.3            N/A
+magento/module-rule                                               100.4.4            N/A
+magento/module-sales                                              103.0.5            N/A
+magento/module-sales-analytics                                    100.4.2            N/A
+magento/module-sales-graph-ql                                     100.4.5            N/A
+magento/module-sales-inventory                                    100.4.2            N/A
+magento/module-sales-rule                                         101.2.5            N/A
+magento/module-sales-sequence                                     100.4.2            N/A
+magento/module-sample-data                                        100.4.3            Sample Data fixtures
+magento/module-search                                             101.1.5            N/A
+magento/module-security                                           100.4.5            Security management module
+magento/module-securitytxt                                        1.1.1              Security.txt file for Magento 2 websites
+magento/module-send-friend                                        100.4.3            N/A
+magento/module-send-friend-graph-ql                               100.4.1            N/A
+magento/module-shipping                                           100.4.5            N/A
+magento/module-sitemap                                            100.4.4            N/A
+magento/module-store                                              101.1.5            N/A
+magento/module-store-graph-ql                                     100.4.3            N/A
+magento/module-swagger                                            100.4.4            N/A
+magento/module-swagger-webapi                                     100.4.1            N/A
+magento/module-swagger-webapi-async                               100.4.1            N/A
+magento/module-swatches                                           100.4.5            Add Swatches to Products
+magento/module-swatches-graph-ql                                  100.4.3            N/A
+magento/module-swatches-layered-navigation                        100.4.1            N/A
+magento/module-tax                                                100.4.5            N/A
+magento/module-tax-graph-ql                                       100.4.1            N/A
+magento/module-tax-import-export                                  100.4.4            N/A
+magento/module-theme                                              101.1.5            N/A
+magento/module-theme-graph-ql                                     100.4.2            N/A
+magento/module-translation                                        100.4.5            N/A
+magento/module-two-factor-auth                                    1.1.4              Two Factor Authentication module for Magento2
+magento/module-ui                                                 101.2.5            N/A
+magento/module-ups                                                100.4.5            N/A
+magento/module-url-rewrite                                        102.0.4            N/A
+magento/module-url-rewrite-graph-ql                               100.4.4            N/A
+magento/module-user                                               101.2.5            N/A
+magento/module-usps                                               100.4.4            N/A
+magento/module-variable                                           100.4.3            N/A
+magento/module-vault                                              101.2.5           
+magento/module-vault-graph-ql                                     100.4.1            N/A
+magento/module-version                                            100.4.2            N/A
+magento/module-webapi                                             100.4.4            N/A
+magento/module-webapi-async                                       100.4.3            N/A
+magento/module-webapi-security                                    100.4.2            WebapiSecurity module provides option to loosen secu...
+magento/module-weee                                               100.4.5            N/A
+magento/module-weee-graph-ql                                      100.4.2            N/A
+magento/module-widget                                             101.2.5            N/A
+magento/module-wishlist                                           101.2.5            N/A
+magento/module-wishlist-analytics                                 100.4.3            N/A
+magento/module-wishlist-graph-ql                                  100.4.5            N/A
+magento/page-builder                                              1.7.2              Page Builder metapackage
+magento/product-community-edition                                 2.4.5              eCommerce Platform for Growth (Community Edition)
+magento/quality-patches                                           1.1.24             Provides quality patches for AdobeCommerce & Magento...
+magento/security-package                                          1.1.4              Magento Security Package
+magento/theme-adminhtml-backend                                   100.4.5            N/A
+magento/theme-frontend-blank                                      100.4.5            N/A
+magento/theme-frontend-luma                                       100.4.5            N/A
+magento/zendframework1                                            1.15.1             Magento Zend Framework 1
+mageplaza/magento-2-french-language-pack                          dev-master c8eb886 French language package for Magento 2
+mageplaza/module-core                                             1.5.0              Mageplaza Core for Magento 2
+mageworx/module-info                                              1.1.3              MageWorx Notifications & Extensions List
+mageworx/module-ordereditor                                       3.9.8             
+mageworx/module-ordereditorbase                                   2.12.3             Order Editor module for Magento 2
+mageworx/module-ordersbase                                        2.0.1              Extended Orders module for the Magento 2
+mageworx/module-ordersgrid                                        1.2.9              Extended Orders Grid module for the Magento 2
+masterminds/html5                                                 2.7.6              An HTML5 parser and serializer.
+mirasvit/module-core                                              1.4.8              Mirasvit Core
+mirasvit/module-report                                            1.4.9              Reports Core
+mirasvit/module-report-api                                        1.0.55             Reports Core API
+mirasvit/module-rma                                               2.2.11             RMA
+mobiledetect/mobiledetectlib                                      2.8.41             Mobile_Detect is a lightweight PHP class for detecti...
+monolog/monolog                                                   2.8.0              Sends your logs to files, sockets, inboxes, database...
+mpdf/mpdf                                                         v8.1.2             PHP library generating PDF files from UTF-8 encoded ...
+mpdf/qrcode                                                       v1.2.0             QR code generator for mPDF
+mtdowling/jmespath.php                                            2.6.1              Declaratively specify how to extract elements from a...
+mustache/mustache                                                 v2.14.2            A Mustache implementation in PHP.
+myclabs/deep-copy                                                 1.11.0             Create deep copies (clones) of your objects
+nikic/php-parser                                                  v4.15.2            A PHP parser written in PHP
+onelogin/php-saml                                                 4.1.0              OneLogin PHP SAML Toolkit
+paragonie/constant_time_encoding                                  v2.6.3             Constant-time Implementations of RFC 4648 Encoding (...
+paragonie/random_compat                                           v9.99.100          PHP 5.x polyfill for random_bytes() and random_int()...
+paypal/module-braintree                                           4.4.0              Braintree Magento
+paypal/module-braintree-core                                      4.4.0              Fork from the Magento Braintree 2.2.0 module by Gene...
+paypal/module-braintree-graph-ql                                  4.4.0              N/A
+pdepend/pdepend                                                   2.7.1              Official version of pdepend to be handled with Composer
+pelago/emogrifier                                                 v6.0.0             Converts CSS styles into inline style attributes in ...
+phar-io/manifest                                                  2.0.3              Component for reading phar.io manifest information f...
+phar-io/version                                                   3.2.1              Library for handling version information and constra...
+phenx/php-font-lib                                                0.5.4              A library to read, parse, export and make subsets of...
+phenx/php-svg-lib                                                 0.5.0              A library to read, parse and export to PDF SVG files.
+php-amqplib/php-amqplib                                           v3.2.0             Formerly videlalvaro/php-amqplib.  This library is a...
+php-cs-fixer/diff                                                 v1.3.1             sebastian/diff v2 backport support for PHP5.6
+php-http/message-factory                                          v1.0.2             Factory interfaces for PSR-7 HTTP Message
+php-webdriver/webdriver                                           1.13.1             A PHP client for Selenium WebDriver. Previously face...
+phpcompatibility/php-compatibility                                9.3.5              A set of sniffs for PHP_CodeSniffer that checks for ...
+phpgt/cssxpath                                                    v1.1.4             Convert CSS selectors to XPath queries.
+phpgt/dom                                                         v2.2.3             The modern DOM API for PHP projects.
+phpmd/phpmd                                                       2.9.1              PHPMD is a spin-off project of PHP Depend and aims t...
+phpseclib/mcrypt_compat                                           2.0.3              PHP 5.x-8.x polyfill for mcrypt extension
+phpseclib/phpseclib                                               3.0.17             PHP Secure Communications Library - Pure-PHP impleme...
+phpstan/phpdoc-parser                                             1.15.0             PHPDoc parser with support for nullable, intersectio...
+phpstan/phpstan                                                   0.12.100           PHPStan - PHP Static Analysis Tool
+phpunit/php-code-coverage                                         9.2.19             Library that provides collection, processing, and re...
+phpunit/php-file-iterator                                         3.0.6              FilterIterator implementation that filters files bas...
+phpunit/php-invoker                                               3.1.1              Invoke callables with a timeout
+phpunit/php-text-template                                         2.0.4              Simple template engine.
+phpunit/php-timer                                                 5.0.3              Utility class for timing
+phpunit/phpunit                                                   9.5.26             The PHP Unit Testing framework.
+picqer/php-barcode-generator                                      v2.2.4             An easy to use, non-bloated, barcode generator in PH...
+psr/cache                                                         1.0.1              Common interface for caching libraries
+psr/container                                                     1.1.2              Common Container Interface (PHP FIG PSR-11)
+psr/event-dispatcher                                              1.0.0              Standard interfaces for event handling.
+psr/http-client                                                   1.0.1              Common interface for HTTP clients
+psr/http-factory                                                  1.0.1              Common interfaces for PSR-7 HTTP message factories
+psr/http-message                                                  1.0.1              Common interface for HTTP messages
+psr/log                                                           1.1.4              Common interface for logging libraries
+ralouphie/getallheaders                                           3.0.3              A polyfill for getallheaders.
+ramsey/collection                                                 1.2.2              A PHP library for representing and manipulating coll...
+ramsey/uuid                                                       4.2.3              A PHP library for generating and working with univer...
+react/promise                                                     v2.9.0             A lightweight implementation of CommonJS Promises/A ...
+robrichards/xmlseclibs                                            3.1.1              A PHP library for XML Security
+sabberworm/php-css-parser                                         8.4.0              Parser for CSS Files written in PHP
+sebastian/cli-parser                                              1.0.1              Library for parsing CLI options
+sebastian/code-unit                                               1.0.8              Collection of value objects that represent the PHP c...
+sebastian/code-unit-reverse-lookup                                2.0.3              Looks up which function or method a line of code bel...
+sebastian/comparator                                              4.0.8              Provides the functionality to compare PHP values for...
+sebastian/complexity                                              2.0.2              Library for calculating the complexity of PHP code u...
+sebastian/diff                                                    4.0.4              Diff implementation
+sebastian/environment                                             5.1.4              Provides functionality to handle HHVM/PHP environments
+sebastian/exporter                                                4.0.5              Provides the functionality to export PHP variables f...
+sebastian/global-state                                            5.0.5              Snapshotting of global state
+sebastian/lines-of-code                                           1.0.3              Library for counting the lines of code in PHP source...
+sebastian/object-enumerator                                       4.0.4              Traverses array structures and object graphs to enum...
+sebastian/object-reflector                                        2.0.4              Allows reflection of object attributes, including in...
+sebastian/phpcpd                                                  6.0.3              Copy/Paste Detector (CPD) for PHP code.
+sebastian/recursion-context                                       4.0.4              Provides functionality to recursively process PHP va...
+sebastian/resource-operations                                     3.0.3              Provides a list of PHP built-in functions that opera...
+sebastian/type                                                    3.2.0              Collection of value objects that represent the types...
+sebastian/version                                                 3.0.2              Library that helps with managing the version number ...
+seld/jsonlint                                                     1.9.0              JSON Linter
+seld/phar-utils                                                   1.2.1              PHAR file format utilities, for when PHP phars you up
+setasign/fpdi                                                     v2.3.6             FPDI is a collection of PHP classes facilitating dev...
+smile/elasticsuite                                                2.10.12.1          Magento 2 merchandising and search engine built on E...
+spatie/dropbox-api                                                1.21.0             A minimal implementation of Dropbox API v2
+spomky-labs/aes-key-wrap                                          v6.0.0             AES Key Wrap for PHP.
+spomky-labs/base64url                                             v2.0.4             Base 64 URL Safe Encoding/Decoding PHP Library
+spomky-labs/otphp                                                 v10.0.3            A PHP library for generating one time passwords acco...
+squizlabs/php_codesniffer                                         3.5.8              PHP_CodeSniffer tokenizes PHP, JavaScript and CSS fi...
+symfony/config                                                    v5.4.11            Helps you find, load, combine, autofill and validate...
+symfony/console                                                   v4.4.49            Eases the creation of beautiful and testable command...
+symfony/css-selector                                              v5.4.11            Converts CSS selectors to XPath expressions
+symfony/debug                                                     v4.4.44            Provides tools to ease debugging PHP code
+symfony/dependency-injection                                      v5.4.16            Allows you to standardize and centralize the way obj...
+symfony/deprecation-contracts                                     v2.5.2             A generic function and convention to trigger depreca...
+symfony/dotenv                                                    v5.4.5             Registers environment variables from a .env file
+symfony/error-handler                                             v4.4.44            Provides tools to manage errors and ease debugging P...
+symfony/event-dispatcher                                          v4.4.44            Provides tools that allow your application component...
+symfony/event-dispatcher-contracts                                v1.1.13            Generic abstractions related to dispatching event
+symfony/filesystem                                                v5.4.13            Provides basic utilities for the filesystem
+symfony/finder                                                    v5.4.11            Finds files and directories via an intuitive fluent ...
+symfony/http-client-contracts                                     v2.5.2             Generic abstractions related to HTTP clients
+symfony/http-foundation                                           v5.4.16            Defines an object-oriented layer for the HTTP specif...
+symfony/http-kernel                                               v4.4.49            Provides a structured process for converting a Reque...
+symfony/mime                                                      v5.4.16            Allows manipulating MIME messages
+symfony/options-resolver                                          v5.4.11            Provides an improved replacement for the array_repla...
+symfony/polyfill-ctype                                            v1.27.0            Symfony polyfill for ctype functions
+symfony/polyfill-intl-idn                                         v1.27.0            Symfony polyfill for intl's idn_to_ascii and idn_to_...
+symfony/polyfill-intl-normalizer                                  v1.27.0            Symfony polyfill for intl's Normalizer class and rel...
+symfony/polyfill-mbstring                                         v1.27.0            Symfony polyfill for the Mbstring extension
+symfony/polyfill-php70                                            v1.20.0            Symfony polyfill backporting some PHP 7.0+ features ...
+symfony/polyfill-php72                                            v1.27.0            Symfony polyfill backporting some PHP 7.2+ features ...
+symfony/polyfill-php73                                            v1.27.0            Symfony polyfill backporting some PHP 7.3+ features ...
+symfony/polyfill-php80                                            v1.27.0            Symfony polyfill backporting some PHP 8.0+ features ...
+symfony/polyfill-php81                                            v1.27.0            Symfony polyfill backporting some PHP 8.1+ features ...
+symfony/process                                                   v4.4.44            Executes commands in sub-processes
+symfony/proxy-manager-bridge                                      v5.4.6             Provides integration for ProxyManager with various S...
+symfony/service-contracts                                         v2.5.2             Generic abstractions related to writing services
+symfony/stopwatch                                                 v5.4.13            Provides a way to profile code
+symfony/var-dumper                                                v5.4.14            Provides mechanisms for walking through any arbitrar...
+symfony/yaml                                                      v5.3.14            Loads and dumps YAML files
+tedivm/jshrink                                                    v1.4.0             Javascript Minifier built in PHP
+temando/module-shipping                                           2.0.0              Temando multi-carrier shipping extension for Magento 2
+temando/module-shipping-remover                                   1.0.0              Removes Temando multi-carrier shipping extension fro...
+thecodingmachine/safe                                             v1.3.3             PHP core functions that throw exceptions instead of ...
+theseer/tokenizer                                                 1.2.1              A small library for converting tokenized PHP source ...
+tubalmartin/cssmin                                                v4.1.1             A PHP port of the YUI CSS compressor
+twig/twig                                                         v3.4.3             Twig, the flexible, fast, and secure template langua...
+web-token/jwt-framework                                           v2.2.11            JSON Object Signing and Encryption library for PHP a...
+webimpress/safe-writer                                            2.2.0              Tool to write files safely, to avoid race conditions
+webmozart/assert                                                  1.11.0             Assertions to validate method input/output with nice...
+webonyx/graphql-php                                               v14.11.8           A PHP port of GraphQL reference implementation
+weew/helpers-array                                                v1.3.1             Useful collection of php array helpers.
+wikimedia/less.php                                                v3.1.0             PHP port of the Javascript version of LESS http://le...
+xtento/pdfcustomizer                                              2.14.8             XTENTO PDF Customizer to customize invoice PDFs and ...
+xtento/xtcore                                                     2.17.0             XTENTO Core Module

@@ -1,0 +1,26 @@
+{
+  "name": "247xtensions/assignordertouser",
+  "description": "Paritucular order will assign to sub-admin, who are having authorization for access the order",
+  "require": {
+  },
+  "type": "magento2-module",
+  "version": "1.0.5",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+		{
+          "name": "247xtensions",
+          "email": "support@247commerce.co.uk",
+          "homepage": "http://247commerce.co.uk/"
+        }
+  ],
+ 
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "X247commerce\\AssignOrderToUser\\": ""
+    }
+  }
+}

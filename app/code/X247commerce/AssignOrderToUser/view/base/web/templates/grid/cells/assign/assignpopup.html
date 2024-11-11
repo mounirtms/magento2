@@ -1,0 +1,27 @@
+<form id="send-mail-form-<%- customerid %>" method="get" enctype="multipart/form-data" action="<%- formaction %>">
+	<div class="modal-body">
+		<div class="bootbox-body">
+			<% if(adminscount) { %> 
+			<input name="form_key" type="hidden" value="<%- formkey %>" />
+			<ul class="check-list" style="padding:0; margin:0;list-style: none;">
+			<% for(var value in admins) {  %>
+			<li style="width: 20.3%;display: inline-block;">
+				<input style="display: inline-block;margin-right: 5px;position: relative;top: 2px;" type="radio" name="sub-admin[]" value="<%- admins[value]["user_id"] %>"  <%- admins[value]["checked"] %> /><%- admins[value]["username"] %>
+			</li>
+			<% } %>
+			</ul>
+			<input type="hidden" name="entity_id" value="<%- customerid %>">    
+			<% } else { %>
+			There is no order manager 
+			<% } %>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<span class="error"></span>
+		<button type="reset" class="btn btn-default"><span><%- cancellabel %></span></button>
+		<% if(adminscount) { %> 
+			<button type="submit" class="btn btn-primary"><span><%- submitlabel %></span></button>
+		<% } %>
+		<span class="clear"></span>
+	</div>
+</form>

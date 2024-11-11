@@ -1,0 +1,153 @@
+{
+    "name": "magento/project-community-edition",
+    "description": "eCommerce Platform for Growth (Community Edition)",
+    "type": "project",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "magento/composer-dependency-version-audit-plugin": true,
+            "magento/magento-composer-installer": true,
+            "magento/inventory-composer-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "magento/composer-root-update-plugin": true,
+            "laminas/laminas-dependency-plugin": true
+        }
+    },
+    "version": "2.4.2",
+    "require": {
+        "amasty/amp": "^1.3",
+        "amasty/base": "1.14.3",
+        "amasty/cart": "^1.9",
+        "amasty/cron-scheduler": "^1.0",
+        "amasty/gift-card-pro": "^2.5",
+        "amasty/gift-wrap": "^1.5",
+        "amasty/module-advanced-conditions": "1.5.4",
+        "amasty/module-advanced-msi": "^1.4",
+        "amasty/module-advanced-reports": "^1.8",
+        "amasty/module-banners-lite": "1.0.19",
+        "amasty/module-delivery-date-manager": "^1.0",
+        "amasty/module-elastic-search": "^1.13",
+        "amasty/module-elastic-search-graphql": "^1.0",
+        "amasty/module-fpc-warmer": "^2.3",
+        "amasty/module-loyalty-program": "^2.7",
+        "amasty/module-mage-2.4.5-fix": "^1.0",
+        "amasty/module-magento-custom-form": "^1.16",
+        "amasty/module-magento-custom-form-graphql": "^1.0",
+        "amasty/module-mixin-rewrite-patch": "^1.0",
+        "amasty/module-optimizer-pro": "^2.2",
+        "amasty/module-product-status-premium": "^1.0",
+        "amasty/module-report-builder": "^1.2",
+        "amasty/module-security-suite": "^1.0",
+        "amasty/module-seo-toolkit": "^2.1",
+        "amasty/module-seo-toolkit-premium": "^1.0",
+        "amasty/module-shipping-suite": "*",
+        "amasty/module-shopby-premium": "^1.11",
+        "amasty/module-visual-merchandiser": "^1.5",
+        "amasty/pgrid": "^1.10",
+        "amasty/promo": "^2.11",
+        "amasty/rewards": "^1.15",
+        "amasty/rewards-graph-ql": "^1.1",
+        "amasty/shopby": "^2.18.1",
+        "bsscommerce/bundle-option-image": "^1.0",
+        "bsscommerce/facebook-pixel": "^1.0",
+        "magento/composer-root-update-plugin": "~1.1",
+        "magento/module-grouped-product": "^100.4",
+        "magento/product-community-edition": "2.4.5",
+        "magento/quality-patches": "^1.1",
+        "mageplaza/magento-2-french-language-pack": "dev-master",
+        "mageplaza/module-core": "^1.4",
+        "mirasvit/module-rma": "*",
+        "smile/elasticsuite": "~2.10.0"
+    },
+    "autoload": {
+        "exclude-from-classmap": [
+            "**/dev/**",
+            "**/update/**",
+            "**/Test/**"
+        ],
+        "files": [
+            "app/etc/NonComposerComponentRegistration.php"
+        ],
+        "psr-0": {
+            "": [
+                "app/code/",
+                "generated/code/"
+            ]
+        },
+        "psr-4": {
+            "Magento\\": "app/code/Magento/",
+            "Magento\\Framework\\": "lib/internal/Magento/Framework/",
+            "Magento\\Setup\\": "setup/src/Magento/Setup/",
+            "Zend\\Mvc\\Controller\\": "setup/src/Zend/Mvc/Controller/"
+        }
+    },
+    "require-dev": {
+        "allure-framework/allure-phpunit": "~1.4",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "friendsofphp/php-cs-fixer": "~2.18.1",
+        "lusitanian/oauth": "~0.8.10",
+        "magento/magento-coding-standard": "*",
+        "magento/magento2-functional-testing-framework": "^3.0",
+        "pdepend/pdepend": "~2.7.1",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "phpmd/phpmd": "^2.8.0",
+        "phpstan/phpstan": "^0.12.77",
+        "phpunit/phpunit": "^9",
+        "sebastian/phpcpd": "^6.0.3",
+        "squizlabs/php_codesniffer": "~3.5.4",
+        "symfony/finder": "^5.2"
+    },
+    "conflict": {
+        "gene/bluefoot": "*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magento\\PhpStan\\": "dev/tests/static/framework/Magento/PhpStan/",
+            "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
+            "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
+            "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/",
+            "Magento\\Tools\\": "dev/tools/Magento/Tools/",
+            "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "repositories": {
+        "amasty_account1": {
+            "type": "composer",
+            "url": "https://composer1.amasty.com/community/"
+        },
+        "bsscommerce": {
+            "type": "composer",
+            "url": "https://composer.bsscommerce.com/community"
+        },
+        "amasty": {
+            "type": "composer",
+            "url": "https://composer.amasty.com/community/"
+        },
+        "mirasvit-rma2": {
+            "type": "composer",
+            "url": "https://49698:ZLCOJH6SN7@packages.mirasvit.com/49698:ZLCOJH6SN7/"
+        },
+        "xtento": {
+            "type": "composer",
+            "url": "https://repo.xtento.com"
+        },
+        "mageworx_packages": {
+            "type": "composer",
+            "url": "https://packages.mageworx.com/"
+        },
+        "0": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    },
+    "extra": {
+        "magento-force": "override"
+    }
+}

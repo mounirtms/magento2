@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="backend_auth_user_login_success">
+        <observer name="mustafa_yalidinedelivery_login_success_observer" instance="Mustafa\YalidineDelivery\Observer\AdminLogin" />
+    </event>
+    <event name="sales_order_shipment_save_before">
+        <observer name="mustafa_yalidinedelivery_shipmentsavebefore" instance="Mustafa\YalidineDelivery\Observer\ShipmentSaveBefore" />
+    </event>
+</config>

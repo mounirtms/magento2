@@ -1,0 +1,59 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+
+<?php /* @var $block \Mustafa\YalidineDelivery\Block\Adminhtml\UpdateRate\UpdateRates */ ?>
+<script type="text/javascript">
+require([
+    'jquery',
+    'prototype',
+    'mage/backend/validation',
+    'jquery/validate'
+], function(jQuery){
+    jQuery('#yalidine_update_rates').click(function () {
+        var lien = window.location.pathname.split('/');
+        var storeid=0;
+        let data = {};
+        if (lien.indexOf('store') !== -1){
+            data = {
+                'storeId' : lien[lien.indexOf('store')+1],
+                'title_home' : jQuery('#carriers_yalidine_title_home').val(),
+                'title_desk' : jQuery('#carriers_yalidine_title_desk').val(),
+                'max_price' : jQuery('#carriers_yalidine_max_price').val(),
+                'max_weight' : jQuery('#carriers_yalidine_max_weight').val()
+            };
+
+            jQuery.ajax({
+                url: "<?php echo $block->getAjaxUrl(); ?>",
+                type: 'post',
+                dataType: 'json',
+                data: data,
+                showLoader: true,
+            }).done(function(returnData){
+                // Replace OrganizationID
+                if (returnData.status == 'success') {
+                // Autenticaton Succesfull
+  
+                    jQuery('#yalidine_update_rates').removeClass('error').addClass('success');
+                } else {
+                // Failed
+                    jQuery('#yalidine_update_rates').removeClass('success').addClass('error');
+                }
+                jQuery('#row_carriers_yalidine_update_rates p.note span').text(returnData.message);
+            });
+        
+        } else{
+            jQuery('#yalidine_update_rates').removeClass('success').addClass('error');
+            jQuery('#row_carriers_yalidine_update_rates p.note span').text('Please choose a store');
+        } 
+    })
+});
+</script>
+
+<?= $block->getButtonHtml() ?>

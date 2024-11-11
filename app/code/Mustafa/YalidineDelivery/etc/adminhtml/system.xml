@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="carriers">
+            <group id="yalidine" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Yalidine Delivery</label>
+                <field id="active" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enabled</label>
+                    <tooltip>Enable Yalidine Delivery</tooltip>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="user" type="text" translate="label" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>API UserId</label>
+                    <comment>Please enter the API ID, or leave blank to use saved value</comment>
+                </field>
+                <field id="key" type="text" translate="label" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>API Key</label>
+                    <comment>Please enter the API Token, or leave blank to use saved value</comment>
+                </field>
+                <field id="test_authentication" translate="label comment" type="button" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Mustafa\YalidineDelivery\Block\Adminhtml\Authentication\TestAuthentication</frontend_model>
+                    <comment>Make sure to test your filled credentials. Result will show here ...</comment>
+                </field>
+                <field id="title_home" translate="label" type="text" sortOrder="11" showInDefault="1" showInWebsite="1" showInStore="1">
+                     <label>Home Delivery Title</label>
+                     <comment>Leave empty to use default title</comment>
+                </field>
+                <field id="title_desk" translate="label" type="text" sortOrder="12" showInDefault="1" showInWebsite="1" showInStore="1">
+                     <label>Desk Delivery Title</label>
+                     <comment>Leave empty to use default title</comment>
+                </field>
+                <field id="max_price" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                     <label>Maximum price by order (DZD)</label>
+                     <comment>Leave empty to use default value</comment>
+                </field>
+                <field id="max_weight" translate="label" type="text" sortOrder="21" showInDefault="1" showInWebsite="1" showInStore="1">
+                     <label>Maximum weight by order (Kg)</label>
+                     <comment>Leave empty to use default value</comment>
+                </field>
+                <field id="update_rates" translate="label comment" type="button" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
+                     <frontend_model>Mustafa\YalidineDelivery\Block\Adminhtml\UpdateRate\UpdateRates</frontend_model>
+                     <comment>Make sure to you have already tested your authentication token. Result will show here ...</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

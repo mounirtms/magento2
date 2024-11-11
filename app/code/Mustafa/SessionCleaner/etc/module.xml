@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Mustafa
+ * @copyright Copyright (c) Mustafa
+ * @package Session Table Cleaner
+ */-->
+ <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Mustafa_SessionCleaner">
+    </module>
+</config>
