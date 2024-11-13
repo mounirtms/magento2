@@ -415,7 +415,9 @@ define([
 					}
 				}).fail(function (error) {
 					console.log(JSON.stringify(error));
-           document.querySelector('.ampromo-overlay').remove();
+          
+          location.reload();
+          
 					/*$(_options.idContainer).customModal("closeModal");
 					alert({
 						modalClass: 'smcqp-confirm',
