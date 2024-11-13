@@ -42,7 +42,7 @@ atlassian*
 
 key*
 auth*
-
+composer.lock
 
 /.buildpath
 /.cache
