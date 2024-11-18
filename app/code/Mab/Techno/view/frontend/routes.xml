@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App:etc/routes.xsd">
+    <router id="mab_techno">
+        <route id="mab_techno_dashboard" frontName="mab_techno_dashboard">
+            <module name="mab_Techno" />
+        </route>
+    </router>
+</config>

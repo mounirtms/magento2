@@ -1,0 +1,11 @@
+<button id="open-dashboard-btn" class="action-primary" onclick="openDashboard()">
+    <?php /* Use a localized string for the button text */ ?>
+    <?php echo __('Open Dashboard'); ?>
+</button>
+
+<script type="text/javascript">
+    function openDashboard() {
+        // Open the dashboard in a new window
+        window.open('<?php echo $block->getOpenDashboardUrl(); ?>', '_blank', 'width=800,height=600');
+    }
+</script>

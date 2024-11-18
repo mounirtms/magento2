@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<acl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <resources>
+        <!-- Admin Panel Resource -->
+        <resource id="Magento_Backend::admin">
+            <!-- Custom resource for the Techno Dashboard -->
+            <resource id="Mab_Techno::dashboard" title="Techno Dashboard Access" />
+        </resource>
+    </resources>
+</acl>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout.xsd">
+    <referenceContainer name="header.panel">
+        <block class="Mab\Techno\Block\Adminhtml\HeaderButton" name="techno.dashboard.header.button" template="Mab_Techno::header_button.phtml"/>
+    </referenceContainer>
+</layout>
