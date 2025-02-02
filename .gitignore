@@ -3,7 +3,9 @@
 # Magento generated files
 /app/etc/env.php
 /var/
-/pub/media/catalog
+/pub/media/catalog/*
+/pub/media/slidershow/*
+/pub/media/
 /pub/static/
 /generated/
 
