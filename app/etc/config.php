@@ -378,6 +378,7 @@ return [
         'Amasty_InventoryExportEntity' => 1,
         'Amasty_InvisibleCaptcha' => 1,
         'Amasty_Label' => 1,
+        'Amasty_LabelCacheCleanerForQtyVariable' => 1,
         'Amasty_MWishlist' => 1,
         'Amasty_Meta' => 0,
         'Amasty_Mostviewed' => 1,

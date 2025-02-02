@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 rm -rf var/cache/*
 rm -rf var/page_cache/*
 rm -rf generated/*

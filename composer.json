@@ -90,7 +90,7 @@
         "laminas/laminas-soap": "^2.10",
         "laminas/laminas-stdlib": "^3.11",
         "laminas/laminas-uri": "^2.9",
-        "laminas/laminas-validator": "^2.23",
+        "laminas/laminas-validator": "^2.64",
         "league/flysystem": "^2.4",
         "league/flysystem-aws-s3-v3": "^2.4",
         "magento/composer": "^1.9.0",
