@@ -3,7 +3,7 @@
 # Magento generated files
 /app/etc/env.php
 /var/
-/pub/media/
+/pub/media/catalog
 /pub/static/
 /generated/
 
